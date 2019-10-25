@@ -17,28 +17,32 @@
 <body>
 
 
-    <div class="contenedor container-fluid vh-100 d-flex justify-content-center">
+    <div class="contenedor container-fluid vh-100 justify-content-center align-items-center">
 
-        <div class="container">
-            <img class="sombrero" src="/img/sombrero2.png" alt="" style="width: 500px;">
-        </div>    
-                
-            <img class="candle" src="/img/candle.gif" alt="" >
-            <img class="candle" src="/img/candle.gif" alt="" >
-            <img class="candle" src="/img/candle.gif" alt="" >
-        
-            <br>
-            <br>
-            <button type="button" class="btn btn-outline-light btn-lg align-items-end">DEMO</button>
+       <div class="row">
+           <div class="col">
+                <img class="sombrero" src="/img/sombrero2.png" alt="">
+                <!--<img class= "candle" src="/img/candle.gif" alt="">--> 
+                    <br>
+                    <br>
+            </div>
+        </div>  
+        <div class="row">      
+            <div class="col">
+             <button type="button" class="btn btn-outline-light btn-lg align-items-start">DEMO</button>
+            </div> 
+        </div> 
+
+    </div> 
             
-    </div>
+ 
 
   <!--AUDIO-->
     <div>
         <audio controls autoplay controls loop src="/audio/prologue.mp3" style="display: none;"></audio>
     </div>
 
-    
+
 <!--JAVASCRIPT BOOTSTRAP-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
