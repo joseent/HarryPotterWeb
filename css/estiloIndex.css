@@ -1,3 +1,15 @@
 * {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;}
 
-  
+  .body {
+      padding: 0;
+      margin: 0;
+  }
+  .contenedor {
+      background-color: black;
+      background-size: cover;
+     
+  }
+
+  .candle {
+      width: 50px;
+  }
