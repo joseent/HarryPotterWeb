@@ -1,49 +1,51 @@
-* {
-  cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
-}
-
-.body {
-  padding: 0;
-  margin: 0;
-}
-
-.contenedor {
-  display: flex;
-  flex-flow: column wrap;
-  background: url(/img/sortingHatBgoptimizada.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.sombrero {
-  width: 280px;
-  animation-duration: 5s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation: float 6s ease-in-out infinite;
-  position: absolute;
-  left: calc(50% - 140px);
-  top: calc(50% - 20px);
-}
-
-
-
-.candle {
-  width: 50px;
-}
-
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-20px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-
-/* hay que agregar @media para cada breack point si queremos que el sombrero quede en su lugar de forma responsiva
+    * {
+        cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
+    }
+    
+    .body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    #videoFondo {
+        position: fixed;
+        z-index: -1;
+    }
+    
+    @media (min-aspect-ratio: 16/9) {
+        #videoFondo {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    @media (max-aspect-ratio: 16/9) {
+        #videoFondo {
+            width: auto;
+            height: 100%;
+        }
+    }
+    
+    .sombrero {
+        width: 280px;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation: float 6s ease-in-out infinite;
+        position: absolute;
+        left: calc(50% - 140px);
+        top: calc(50% - 20px);
+    }
+    
+    @keyframes float {
+        0% {
+            transform: translatey(0px);
+        }
+        50% {
+            transform: translatey(-20px);
+        }
+        100% {
+            transform: translatey(0px);
+        }
+    }
+    /* hay que agregar @media para cada breack point si queremos que el sombrero quede en su lugar de forma responsiva

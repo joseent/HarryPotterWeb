@@ -1,0 +1,18 @@
+* {
+    cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
+}
+
+.bg {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(/casaSlytherin/img/commonRoom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.logo {
+    width: 80%;
+    border-radius: 100%;
+}
