@@ -19,6 +19,10 @@
     width: 340px;
     margin-top: 265px;
     margin-left: 20px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    
 }
   .candle {
       width: 50px;
