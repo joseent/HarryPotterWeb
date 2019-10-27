@@ -7,6 +7,7 @@
         margin: 0;
     }
     
+    
     #videoFondo {
         position: fixed;
         z-index: -1;
@@ -48,4 +49,4 @@
             transform: translatey(0px);
         }
     }
-    /* hay que agregar @media para cada breack point si queremos que el sombrero quede en su lugar de forma responsiva
+    
