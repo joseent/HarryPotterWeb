@@ -1,0 +1,68 @@
+body {
+  margin: 0; 
+  padding: 0; 
+  background: beige;
+}
+
+.contenedor {
+  
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.contenedorEncuesta {
+    margin: 0 auto;
+    flex-flow: column; 
+    width: 100%; 
+    margin: -32px auto;
+}
+
+.imgEncuesta {
+width: 300px;
+margin: 0 auto;
+}
+
+.preguntas {
+    color: rgb(42, 40, 40);
+    margin-top: 30px;
+}
+
+label {
+    color: rgb(42, 40, 40);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 400;
+}
+
+
+button a:hover {
+    text-decoration: none;
+    color: wheat;
+}
+
+
+.jumbotron {
+    background-image: url(/img/encuesta.jpg);
+    background-size: cover;
+    min-width: 100%;
+    min-height: 500px;
+
+}
+
+.display-4 {
+   color: rgb(42, 40, 40);
+}
+
+.frase {
+    min-height: 50px;
+    background: rgb(245, 245, 245, .5);
+}
+
+button a {
+    color: whitesmoke;
+}
+
+button {
+    width: 80px;
+}
