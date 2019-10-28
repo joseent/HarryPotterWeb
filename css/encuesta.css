@@ -1,11 +1,10 @@
 body {
-  margin: 0; 
-  padding: 0; 
-  background: beige;
+    margin: 0;
+    padding: 0;
+    background: beige;
 }
 
 .contenedor {
-  
     min-width: 100vw;
     min-height: 100vh;
     display: flex;
@@ -14,34 +13,30 @@ body {
 
 .contenedorEncuesta {
     margin: 0 auto;
-    flex-flow: column; 
-    width: 100%; 
+    flex-flow: column;
+    width: 100%;
     margin: -32px auto;
 }
-
 
 .preguntas {
     color: rgb(42, 40, 40);
     margin-top: 30px;
 }
 
-
 button a:hover {
     text-decoration: none;
     color: wheat;
 }
-
 
 .jumbotron {
     background-image: url(/img/encuesta.jpg);
     background-size: cover;
     min-width: 100%;
     min-height: 500px;
-
 }
 
 .display-4 {
-   color: rgb(42, 40, 40);
+    color: rgb(42, 40, 40);
 }
 
 .frase {
@@ -55,4 +50,14 @@ button a {
 
 button {
     width: 80px;
+}
+
+@font-face {
+    font-family: "HarryP";
+    src: url(/font/HARRYP__.TTF);
+}
+
+#titulo {
+    font-family: "HarryP";
+    font-size: 6rem;
 }
