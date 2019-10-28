@@ -1,23 +1,16 @@
-var checkUsername="Jose"
-var checkPassword="hola"
+var checkPassword = "fortuna major"
 
 
-function logear(){
-    let userName =document.getElementById('username').value;
-    console.log(userName)
-    let password=document.getElementById('password').value;
+function logear() {
+    let password = document.getElementById('password').value;
     console.log(password)
 
 
-    if (userName==checkUsername && password==checkPassword){
-        window.open("inicio.html","_system")
-       
-    
-    }
-    else{
-        document.getElementById('alerta').style.display="block"
+    if (password == checkPassword) {
+        window.open("casa.html", "_system")
 
-console.log("hola")
+        console.log("hola")
+    } else {
+        window.open("/index.html")
     }
 }
-
