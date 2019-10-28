@@ -19,16 +19,16 @@ function corregir() {
     resultado = p1 + p2 + p3;
     if (resultado < 5) {
         console.log('Griffindor')
-        alert(" Palabra Secreta " + resultado);
+        window.open("/casaGriffindor/casa.html", '_blank');
     } else if (resultado < 10) {
-        console.log(Slytherin)
-        alert(" Palabra Secreta " + resultado);
+        console.log('Slytherin')
+        window.open("/casaSlytherin/casa.html", '_blank');
     } else if (resultado < 20) {
-        console.log(Hufflepuf)
-        alert(" Palabra Secreta " + resultado);
+        console.log('Hufflepuf')
+        window.open("/casaHufflepuf/casa.html", '_blank');
     } else {
-        console.log('RAvenclaw')
-        alert(" Palabra Secreta " + resultado);
+        console.log('Ravenclaw')
+        window.open("/casaRavenclaw/casa.html", '_blank');
     }
 
 
