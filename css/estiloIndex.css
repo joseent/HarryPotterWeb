@@ -19,8 +19,8 @@
         transform: translateX(-50%) translateY(-50%);
         min-width: 100%;
         min-height: 100%;
-        width: 100%;
-
+        object-fit: fill;
+        height: 100%;
         z-index: -1;
     }
     
@@ -61,3 +61,12 @@
         }
     }
     
+    #botonSilencio {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #botonPlay {
+        width: 40px;
+        height: 40px;
+    }
