@@ -1,4 +1,9 @@
-function corregir() {
+function play() {
+    var audio = document.getElementById("audio");
+    audio.play();
+}
+
+function casa() {
     var p1, p2, p3, resultado;
 
     //pregunt 1
@@ -21,14 +26,14 @@ function corregir() {
         console.log('Griffindor')
         window.open("/casaGriffindor/casa.html", '_blank');
     } else if (resultado < 10) {
-        console.log('Slytherin')
-        window.open("/casaSlytherin/casa.html", '_blank');
+        console.log('Ravenclaw')
+        window.open("/casaRavenclaw/casa.html", '_blank');
     } else if (resultado < 20) {
         console.log('Hufflepuf')
         window.open("/casaHufflepuf/casa.html", '_blank');
     } else {
-        console.log('Ravenclaw')
-        window.open("/casaRavenclaw/casa.html", '_blank');
+        console.log('Slytherin')
+        window.open("/casaSlytherin/casa.html", '_blank');
     }
 
 
