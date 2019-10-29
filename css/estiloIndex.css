@@ -60,3 +60,13 @@
             transform: translatey(0px);
         }
     }
+    
+    #botonSilencio {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #botonPlay {
+        width: 40px;
+        height: 40px;
+    }

@@ -61,3 +61,13 @@ button {
     font-family: "HarryP";
     font-size: 6rem;
 }
+
+#botonSilencio {
+    width: 40px;
+    height: 40px;
+}
+
+#botonPlay {
+    width: 40px;
+    height: 40px;
+}
