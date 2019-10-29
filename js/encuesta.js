@@ -24,16 +24,16 @@ function casa() {
     resultado = p1 + p2 + p3;
     if (resultado < 5) {
         console.log('Griffindor')
-        window.open("/casaGriffindor/casa.html", '_blank');
+        window.open("/casaGriffindor/casa.html", '_self');
     } else if (resultado < 10) {
         console.log('Ravenclaw')
-        window.open("/casaRavenclaw/casa.html", '_blank');
+        window.open("/casaRavenclaw/casa.html", '_self');
     } else if (resultado < 20) {
         console.log('Hufflepuf')
-        window.open("/casaHufflepuf/casa.html", '_blank');
+        window.open("/casaHufflepuf/casa.html", '_self');
     } else {
         console.log('Slytherin')
-        window.open("/casaSlytherin/casa.html", '_blank');
+        window.open("/casaSlytherin/casa.html", '_self');
     }
 
 
