@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/encuesta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+
+    <title>Harry Potter</title>
+</head>
+
+<body>
+    <!--BARRA NAVEGACION CASAS-->
+    <div class="pos-f-t">
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg p-4">
+                <a href="/casaGriffindor/index.html">
+                    <h4 class="text-muted h5">Griffindor</h4>
+                </a>
+                <a href="/casaHuffplepuf/index.html">
+                    <h5 class="text-muted h5">Huffplepuf</h5>
+                </a>
+                <a href="/casaSlytherin/index.html">
+                    <h5 class="text-muted h5">Slytherin</h5>
+                </a>
+                <a href="/casaRavenclaw/index.html">
+                    <h5 class="text-muted h5">Ravenclaw</h5>
+                </a>
+            </div>
+
+        </div>
+        <nav class="navbar navbar-dark bg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img id="botonPlay" src="/img/botonAudio/botonPlay.png" onclick="play(); " style="display: none;" alt="">
+            <img id="botonSilencio" src="/img/botonAudio/botonStop.png" onclick="stop(); " style="display: block;" alt="">
+
+        </nav>
+
+    </div>
+  
+
+
+
+    <!--TEXTO BIENVENIDA-->
+
+        <div class="jumbotron text-center justify-content-center align-items-center">
+                <p class="display-4"><b> ¡Que comience la aventura!</b></p>
+                <div class="frase">
+                <blockquote class="lead"><b>"No hay nada escondido en tu cabeza
+                    que el Sombrero Seleccionador no pueda ver, así que pruébame y te diré
+                    a dónde perteneces"</b></blockquote>
+                </div>
+               
+            </div>
+          
+
+    <div class="contenedor container d-flex justify-content-center align-items-center">
+
+
+
+        <!----------------PREGUNTAS-->
+
+        <div class="contenedorEncuesta container text-center">
+
+            <!--PREGUNTA 1-->
+            <div class="row">
+                <div class="col">
+                    <h3 class="preguntas">¿Qué elemento elegirías?</h3>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <div class="row">
+
+                <div class="col">
+
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check1">
+                        <label for="radio">AGUA</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check2">
+                        <label for="radio">AIRE</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check3">
+                        <label for="radio">TIERRA</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check4">
+                        <label for="radio">FUEGO</label>
+                    </div>
+                </div>
+            </div>
+
+            <!--PREGUNTA 2-->
+            <br><br>
+
+            <div class="row">
+                <div class="col">
+                    <h3 class="preguntas">¿Qué clase sería tu favorita?</h3>
+                </div>
+                <br>
+                <br>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check2">
+                        <label for="radio">DEFENSA CONTRA LAS ARTES OSCURAS</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check2">
+                        <label for="radio">TRANSFORMACIONES</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check3">
+                        <label for="radio">POCIONES</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check4">
+                        <label for="radio">HERBOLOGÍA</label>
+                    </div>
+                </div>
+            </div>
+            <!--PREGUNTA 3-->
+
+            <br><br>
+            <div class="row">
+                <div class="col">
+                    <h3 class="preguntas">¿Cuál de estos hechizos te parece más útil?</h3>
+                </div>
+                <br>
+                <br>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check2">
+                        <label for="radio">OBLIVIATE (BORRA LA MEMORIA)</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check2">
+                        <label for="radio">DESMAIUS (PARA ATURDIR AL ADVERSARIO)</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check3">
+                        <label for="radio">EXPECTO PATRONUM (PROTECCIÓN CONTRA LOS DEMENTORES)</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col">
+                    <img class="imgEncuesta" src="" alt="">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="check4">
+                        <label for="radio">IMPERIO (PARA DOMINAR LA VOLUNTAD DEL ADVERSARIO)</label>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <!--BOTON-->
+            <div class="row text-center">
+                <div class="col">
+                    <button class="btn btn-dark" type="submit" onclick="play(); setTimeout(casa, 18000);"> <a href="#">listo!</a></button>
+                    <audio id="audio" src="/audio/sombreroSeleccionador.mp3"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--AUDIO-->
+
+    <audio id="musFondo" controls autoplay controls loop src="/audio/prologue.mp3" style="display: none;"></audio>
+
+    <!--AUDIO-->
+
+
+
+
+    <!--JAVASCRIPT BOOTSTRAP-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="/js/encuesta.js"></script>
+</body>
+
+</html>
