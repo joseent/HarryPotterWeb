@@ -7,7 +7,7 @@ function logear() {
 
 
     if (password == checkPassword) {
-        window.open("casa.html", "_system")
+        window.open("casa.html", "_self")
 
         console.log("hola")
     } else {

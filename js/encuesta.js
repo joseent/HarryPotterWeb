@@ -1,3 +1,4 @@
+//funcion para poner play
 function play() {
     var audio = document.getElementById("audio");
     audio.play();
@@ -34,7 +35,9 @@ function play() {
     console.log('inicia')
 }
 
-/*funcion para los resultados de la casa
+
+
+//funcion para los resultados de la casa
 
 function casa() {
     var p1, p2, p3, resultado;
@@ -66,4 +69,4 @@ function casa() {
 
 
 
-}*/
+}
