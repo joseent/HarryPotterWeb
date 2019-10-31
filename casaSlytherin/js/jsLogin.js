@@ -14,3 +14,4 @@ function logear() {
         window.open("/index.html")
     }
 }
+//poner alerta

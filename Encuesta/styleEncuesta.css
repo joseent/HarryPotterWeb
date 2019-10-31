@@ -1,27 +1,26 @@
-
 .contenedor {
     position: relative;
-    width:100vw; 
-    min-height:100vh;
+    width: 100vw;
+    min-height: 100vh;
     background: url(/Encuesta/img/fondo2.jpg);
     background-size: cover;
     z-index: -1;
-    padding: 20px;
 }
 
 .contenedorCard {
-   position: absolute;
-   top: 10px;
-   bottom: 10px;
-   width: 600px;
-   padding: 20px;;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    width: 600px;
+    padding: 20px;
+    ;
 }
 
 .jumbotron {
-  margin: 0 auto; 
-  text-align: center;
-  background: dimgrey;
-  color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+    background: dimgrey;
+    color: whitesmoke;
 }
 
 .preguntas {
@@ -33,11 +32,11 @@ label {
     text-align: left;
     font-size: 18px;
 }
+
 button {
-    background:lightseagreen;
-   
+    background: lightseagreen;
 }
- 
+
 .container {
     display: block;
     position: relative;
@@ -49,20 +48,24 @@ button {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  
-  /*radios*/
+}
 
-  
-  /* Hide the browser's default radio button */
-  .container input {
+
+/*radios*/
+
+
+/* Hide the browser's default radio button */
+
+.container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-  }
-  
-  /* Create a custom radio button */
-  .checkmark {
+}
+
+
+/* Create a custom radio button */
+
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -70,36 +73,46 @@ button {
     width: 25px;
     background-color: #eee;
     border-radius: 50%;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.container:hover input~.checkmark {
     background-color: #ccc;
-  }
-  
-  /* When the radio button is checked, add a blue background */
-  .container input:checked ~ .checkmark {
+}
+
+
+/* When the radio button is checked, add a blue background */
+
+.container input:checked~.checkmark {
     background-color: lightseagreen;
-  }
-  
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .checkmark:after {
+}
+
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  /* Show the indicator (dot/circle) when checked */
-  .container input:checked ~ .checkmark:after {
+}
+
+
+/* Show the indicator (dot/circle) when checked */
+
+.container input:checked~.checkmark:after {
     display: block;
-  }
-  
-  /* Style the indicator (dot/circle) */
-  .container .checkmark:after {
-      top: 9px;
-      left: 9px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: white;
-  }
+}
+
+
+/* Style the indicator (dot/circle) */
+
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}

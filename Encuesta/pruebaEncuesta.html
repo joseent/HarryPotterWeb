@@ -10,8 +10,8 @@
     <title>Document</title>
 </head>
 
-<body>
-
+<body class="contenedor">
+    <!--NAVBAR-->
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
@@ -37,100 +37,139 @@
 
 
         </nav>
-
-        <div class="jumbotron jumbotron-fluid" style="background-color: dimgrey; margin: 0 auto;">
-            <div class="container">
-                <h1 class="display-4">¿A qué casa perteneces?</h1>
-                <p class="lead">"No hay nada escondido en tu cabeza que el Sombrero Seleccionador no pueda ver, así que pruébame y te diré a dónde perteneces"</p>
-            </div>
+    </div>
+    <!--ENCUESTA-->
+    <div class="jumbotron jumbotron-fluid" style="background-color: dimgrey; margin: 0 auto;">
+        <div class="container">
+            <h1 class="display-4">¿A qué casa perteneces?</h1>
+            <p class="lead">"No hay nada escondido en tu cabeza que el Sombrero Seleccionador no pueda ver, así que pruébame y te diré a dónde perteneces"</p>
         </div>
-
-        <div class="contenedor container-fluid  d-flex justify-content-center align-items-center">
+    </div>
+    <div class="container">
+        <div class=" container-fluid  d-flex justify-content-center align-items-center">
 
 
             <div class="card contenedorCard">
 
                 <h3 class="preguntas text-center">¿Qué elemento elegirías?</h1>
 
-                    <label class="container">AGUA
-                            <input type="radio" checked="checked" name="radio">
-                            <span class="checkmark"></span>
+                    <label class="container">
+                            <div class="row">
+                                    <div class="col-1"><input type="radio" name="radio">
+                                        <span class="checkmark"></span></div>
+                                    <div class="col"><p>AGUA</p></div>
+                                </div>
                         </label>
 
-                    <label class="container">FUEGO
-                        <input type="radio" name="radio">
-                        <span class="checkmark"></span>
+                    <label class="container">
+                        <div class="row">
+                            <div class="col-1"><input type="radio" name="radio">
+                                <span class="checkmark"></span></div>
+                            <div class="col"><p>FUEGO</p></div>
+                        </div>
+                        
                     </label>
 
-                    <label class="container">TIERRA
-                        <input type="radio" name="radio">
-                        <span class="checkmark"></span>
+                    <label class="container">
+                            <div class="row">
+                                    <div class="col-1"><input type="radio" name="radio">
+                                        <span class="checkmark"></span></div>
+                                    <div class="col"><p>TIERRA</p></div>
+                                </div>
                     </label>
 
-                    <label class="container">AIRE
-                        <input type="radio" name="radio">
-                        <span class="checkmark"></span>
+                    <label class="container">
+                            <div class="row">
+                                    <div class="col-1"><input type="radio" name="radio">
+                                        <span class="checkmark"></span></div>
+                                    <div class="col"><p>AIRE</p></div>
+                                </div>
                     </label>
 
                     <br>
 
                     <h3 class="preguntas text-center">¿Qué clase sería tu favorita?</h1>
 
-                        <label class="container">DEFENSA CONTRA LAS ARTES OSCURAS   
-                            <input type="radio" checked="checked" name="radio">
-                            <span class="checkmark"></span>
+                        <label class="container">
+                                <div class="row">
+                                        <div class="col-1"><input type="radio" name="radio">
+                                            <span class="checkmark"></span></div>
+                                        <div class="col"><p>DEFENSA CONTRA LAS ARTES OSCURAS </p></div>
+                                    </div>
                         </label>
 
-                        <label class="container">  TRANSFORMACIONES
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
+                        <label class="container">  
+                                <div class="row">
+                                        <div class="col-1"><input type="radio" name="radio">
+                                            <span class="checkmark"></span></div>
+                                        <div class="col"><p>TRANSFORMACIONES </p></div>
+                                    </div>
                         </label>
 
-                        <label class="container">POCIONES
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
+                        <label class="container">
+                                <div class="row">
+                                        <div class="col-1"><input type="radio" name="radio">
+                                            <span class="checkmark"></span></div>
+                                        <div class="col"><p>POCIONES</p></div>
+                                    </div>
                         </label>
 
-                        <label class="container">HERBOLOGÍA
-                            <input type="radio" name="radio">
-                            <span class="checkmark"></span>
+                        <label class="container">
+                                <div class="row">
+                                        <div class="col-1"><input type="radio" name="radio">
+                                            <span class="checkmark"></span></div>
+                                        <div class="col"><p>HERBOLOGÍA</p></div>
+                                    </div>
                         </label>
 
                         <br>
 
                         <h3 class="preguntas text-center">¿Cuál de estos hechizos te parece más útil?</h1>
 
-                            <label class="container">OBLIVIATE (BORRA LA MEMORIA) 
-                                <input type="radio"  name="radio">
-                                <span class="checkmark"></span>
+                            <label class="container">
+                                    <div class="row">
+                                            <div class="col-1"><input type="radio" name="radio">
+                                                <span class="checkmark"></span></div>
+                                            <div class="col"><p>OBLIVIATE (BORRA LA MEMORIA) </p></div>
+                                        </div>
                             </label>
 
-                            <label class="container">DESMAIUS (PARA ATURDIR AL ADVERSARIO)
-                                <input type="radio" name="radio">
-                                <span class="checkmark"></span>
+                            <label class="container">
+                                    <div class="row">
+                                            <div class="col-1"><input type="radio" name="radio">
+                                                <span class="checkmark"></span></div>
+                                            <div class="col"><p>DESMAIUS (PARA ATURDIR AL ADVERSARIO)</p></div>
+                                        </div>
                             </label>
 
-                            <label class="container">EXPECTO PATRONUM (PROTECCIÓN CONTRA LOS DEMENTORES)
-                                <input type="radio" name="radio">
-                                <span class="checkmark"></span>
+                            <label class="container">
+                                    <div class="row">
+                                            <div class="col-1"><input type="radio" name="radio">
+                                                <span class="checkmark"></span></div>
+                                            <div class="col"><p>EXPECTO PATRONUM (PROTECCIÓN CONTRA LOS DEMENTORES)</p></div>
+                                        </div>
                             </label>
 
-                            <label class="container">IMPERIO (PARA DOMINAR LA VOLUNTAD DEL ADVERSARIO)
-                                <input type="radio" name="radio">
-                                <span class="checkmark"></span>
+                            <label class="container">
+                                    <div class="row">
+                                            <div class="col-1"><input type="radio" name="radio">
+                                                <span class="checkmark"></span></div>
+                                            <div class="col"><p>IMPERIO (PARA DOMINAR LA VOLUNTAD DEL ADVERSARIO)</p></div>
+                                        </div>
                             </label>
                             <br>
                             <button type="submit"><a href="#" class="btn" style="color: whitesmoke; font-size:20px;">Dímelo!</a></button>
             </div>
         </div>
 
+    </div>
 
 
+    <!--JAVASCRIPT-->
 
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
