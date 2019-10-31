@@ -2,7 +2,7 @@
     position: relative;
     width: 100vw;
     min-height: 100vh;
-    background: url(/Encuesta/img/fondo2.jpg);
+    background: url(/Encuesta/img/encuesta.jpg);
     background-size: cover;
     z-index: -1;
 }
@@ -17,18 +17,19 @@
 }
 
 .jumbotron {
-    margin: 0 auto;
-    text-align: center;
-    background: dimgrey;
-    color: whitesmoke;
+  margin: 0 auto; 
+  text-align: center;
+  background: transparent;
+  color: whitesmoke;
+  cursor: auto;
 }
 
 .preguntas {
     margin: 20px 0;
 }
 
+
 label {
-    text-transform: lowercase;
     text-align: left;
     font-size: 18px;
 }
