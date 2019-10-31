@@ -1,14 +1,15 @@
+var audioF = document.getElementById("musFondo");
 //funcion para poner play
-function play() {
+function playy() {
     var audio = document.getElementById("audio");
     audio.play();
+    audioF.pause();
 }
 
 //funcion para parar musica de fondo en caso de no querer que suene mas
 
 function stop() {
-    var audio = document.getElementById("musFondo");
-    musFondo.pause();
+    audioF.pause();
     var silencio = document.getElementById("botonPlay")
     if (silencio) {
         document.getElementById('botonPlay').style.display = "block";
@@ -23,8 +24,7 @@ function stop() {
 //funcion para parar musica de fondo en caso de no querer que suene mas
 
 function play() {
-    var audio = document.getElementById("musFondo");
-    musFondo.play();
+    audioF.play();
     var iniciar = document.getElementById("botonSilencio")
     if (iniciar) {
         document.getElementById('botonSilencio').style.display = "block";
