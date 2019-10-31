@@ -1,4 +1,4 @@
-var checkPassword = "sangre pura"
+var checkPassword = "sangrepura"
 
 
 function logear() {
