@@ -70,3 +70,8 @@ function casa() {
 
 
 }
+
+
+//funcion para retardar la aparicion del modal mientras habla el sombrero-----no funciona
+
+setTimeout(function(){ getElementById("exampleModal"); }, 5000); //milisengundos
