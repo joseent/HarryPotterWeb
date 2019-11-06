@@ -1,0 +1,40 @@
+
+body {
+    background-color: black;
+    color: white;
+}
+
+@media (min-width: 1200px) {
+.container {
+    max-width: 400px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .container {
+        max-width: 400px;
+        }
+ }
+
+@media (min-width: 768px) {
+.container {
+    max-width: 400px;
+    }
+} 
+
+@media (min-width: 576px){
+.container {
+    max-width: 400px;      
+    }
+}
+
+/*estilo de letra*/
+
+@font-face {
+    font-family: harryP;
+    src: url(/font/HARRYP__.TTF);
+}
+
+h1 {
+font-family: harryP;
+}

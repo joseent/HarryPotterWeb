@@ -117,3 +117,14 @@ button {
     border-radius: 50%;
     background: white;
 }
+
+/*estilo de letra*/
+
+@font-face {
+    font-family: harryP;
+    src: url(/font/HARRYP__.TTF);
+}
+
+h1 {
+    font-family: harryP;
+}
