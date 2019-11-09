@@ -127,33 +127,3 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
-
-
-/*scroll en tarjetas*/
-
-#tarjeta1::-webkit-scrollbar {
-    display: none;
-}
-
-#tarjeta1 {
-    max-height: 310px;
-    padding: 10px;
-}
-
-#tarjeta2::-webkit-scrollbar {
-    display: none;
-}
-
-#tarjeta2 {
-    max-height: 350px;
-    padding: 10px;
-}
-
-#tarjeta3::-webkit-scrollbar {
-    display: none;
-}
-
-#tarjeta3 {
-    max-height: 320px;
-    padding: 10px;
-}

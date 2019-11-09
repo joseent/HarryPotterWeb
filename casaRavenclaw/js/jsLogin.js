@@ -1,16 +1,14 @@
-var checkPassword = "sabiduria"
+var checkPassword = "sangrepura"
 
-
-function logear() {
+function logear(e) {
+    e.preventDefault();
     let password = document.getElementById('password').value;
-    console.log(password)
-
-
     if (password == checkPassword) {
-        window.open("casa.html", "_system")
+        window.open("casa.html", "_self")
 
         console.log("hola")
     } else {
-        window.open("/index.html")
+        console.log('INCORECTA')
+        document.getElementById('alerta').style.display = "block"
     }
 }
