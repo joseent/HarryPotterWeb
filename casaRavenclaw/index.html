@@ -24,26 +24,39 @@
                             <img class="logo" src="/casaRavenclaw/img/logos.png" alt="">
                         </div>
                     </div>
+                    <div class="row-10 P-1 d-flex justify-content-center">
+                        <div class="col" id="alerta" style="display: none;">
+                            <div class="alert alert-danger p-3 d-flex justify-content-center" role="alert">
+                                ¡INFORMACION INCORRECTA!
+                            </div>
+                        </div>
+
+                    </div>
+
 
                     <div class="row-10 d-flex justify-content-center">
                         <div class="col">
-                            <div class="row p-1 d-flex justify-content-center">
-                                <div class="col">
-                                    <input type="text" id="username" name="username" class="form-control" placeholder="Nombre">
+                            <form onsubmit="logear(event)">
+                                <div class="row p-1 d-flex justify-content-center">
+                                    <div class="col">
+                                        <input type="text" id="username" name="username" class="form-control" placeholder="Nombre">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="row p-1 d-flex justify-content-center">
-                                <div class="col">
-                                    <input id="password" type="password" name="password" class="form-control" placeholder="Palabra">
+                                <div class="row p-1 d-flex justify-content-center">
+                                    <div class="col">
+                                        <input id="password" type="password" name="password" class="form-control" placeholder="Palabra">
+                                    </div>
                                 </div>
-                            </div>
+                                <div class="row p-1 d-flex justify-content-center">
+                                    <a href=""><span style="color: white;">Olvidaste tu contraseña?</span></a>
+                                </div>
 
-                            <div class="row p-3 d-flex justify-content-center">
-                                <div class="col">
-                                    <button type="button" class="btn btn-info btn-lg btn-block font-weight-bold" onclick="logear()">ACCEDER</button>
+                                <div class="row p-3 d-flex justify-content-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-info btn-lg btn-block font-weight-bold">ACCEDER</button>
+                                    </div>
                                 </div>
-                            </div>
-
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -51,18 +64,6 @@
         </div>
     </div>
 
-
-
-    <div class="py-3 bg-info text-dark">
-        <div class="container font-weight-bold">
-            <div class="row d-flex justify-content-center">
-                <div class="col d-flex justify-content-center">
-                    <p>Pagina Web Oficial de Contrucciones I FAU-UNT</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
 
 
     <!--AUDIO-->
