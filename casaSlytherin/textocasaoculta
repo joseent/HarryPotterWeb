@@ -1,0 +1,93 @@
+<!--MERCADO NEGRO-->
+        <div class="row">
+            <div class="col">
+                <h1>MERCADO NEGRO</h1>
+                <h3>LO MAS VENDIDOS</h3>
+
+                <div class="row">
+                    <!--POCION-->
+                    <div class="col-xs-12 col-sm-6 col-md-4" style="min-width: width 310px; ;">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="/img/mercadoNegro/bebidaDiablo.jpg" alt="card image"></p>
+                                            <h4 class="card-title">Bebida del Diablo</h4>
+                                            <p class="card-text">Pocion</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Bebida del Diablo</h4>
+                                            <p class="card-text">Efectos: esta poción hace que el bebedor experimente sus peores recuerdos y miedos más íntimos. Deja a su víctima en un estado de hipnosis similar al trance, una pesadilla psicológica que parece interminable.
+                                                Es imposible interrumpir o retrasar el efecto.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--ACCESORIO-->
+                    <div class="col-xs-12 col-sm-6 col-md-4" style="min-width: width 310px; ;">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="/img/mercadoNegro/collarOpalo.jpg" alt="card image"></p>
+                                            <h4 class="card-title">Collar de Ópalo</h4>
+                                            <p class="card-text">Accesorio</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Collar de Ópalo</h4>
+                                            <p class="card-text"> Es un objeto en extremo peligroso, ya que sujetarlo con la mano desnuda casi siempre produce la muerte instantánea de quién lo haya tocado.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--MORTIFAGO-->
+                    <div class="col-xs-12 col-sm-6 col-md-4" style="min-width: width 310px; ;">
+                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                            <div class="mainflip">
+                                <div class="frontside">
+                                    <div class="card">
+                                        <div class="card-body text-center">
+                                            <p><img class=" img-fluid" src="/img/mercadoNegro/mortifagos.jpg" alt="card image"></p>
+                                            <h4 class="card-title">Mortifago</h4>
+                                            <p class="card-text">Asesino</p>
+                                            <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="backside">
+                                    <div class="card">
+                                        <div class="card-body text-center mt-4">
+                                            <h4 class="card-title">Mortifago</h4>
+                                            <p class="card-text">Seguidores del señor tenebroso, dispuestos a matar a tus enemigos sin importar si pierden sus vidas en el proceso.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--NOTICIAS SECRETAS-->
