@@ -16,6 +16,12 @@ body {
     height: auto;
 }
 
+.icono {
+  width: 30px;
+  margin: 0 10px;
+}
+
+
 .mapaHogwarts {
     width: 100%;
 }
