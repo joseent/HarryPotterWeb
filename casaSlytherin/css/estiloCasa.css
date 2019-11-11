@@ -106,3 +106,17 @@ q:after {
 /*estilo video fondo*/
 
 #bg-video-casa {}
+
+.rita {
+    width: 300px;
+    padding: 1.25rem;
+    
+}
+
+.parsel {
+    text-align: center;
+}
+.imagencentrada {
+    display: flex;
+    justify-content: center;
+}
