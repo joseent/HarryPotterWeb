@@ -1,0 +1,20 @@
+/*estilo de letra*/
+
+@font-face {
+    font-family: harryP;
+    src: url(/font/HARRYP__.TTF);
+}
+
+h1 {
+    font-family: harryP;
+}
+
+.bg {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(/img/ronCrash2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
