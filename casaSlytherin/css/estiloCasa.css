@@ -11,15 +11,66 @@ body {
     margin: 0;
 }
 
+header {
+    background: url(/img/bienvenida.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
 .imagenCabecera {
     width: 100vw;
     height: auto;
 }
 
-.icono {
-  width: 30px;
-  margin: 0 10px;
+/*NavBar*/
+
+
+
+.navbar{
+    background-color: rgba(0, 0, 0, .5);
 }
+
+.icono {
+  width: 25px;
+  margin: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-link {
+  color: lightgray;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-transform: uppercase;
+} 
+
+li a {
+    color: white;
+}
+
+ ul li:hover {
+    transform: translateY(10px);
+    color: lightgrey;
+ }
+
+ form img {
+ color: lightgrey;
+ }
+
+ input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+ }
+
+ input  ::placeholder {
+     color: whitesmoke;
+ }
+
 
 
 .mapaHogwarts {
@@ -111,7 +162,10 @@ q:after {
 
 /*estilo video fondo*/
 
-#bg-video-casa {}
+#bg-video-casa {
+    background-size: cover;
+    min-height: 100vh;
+}
 
 .rita {
     width: 300px;
