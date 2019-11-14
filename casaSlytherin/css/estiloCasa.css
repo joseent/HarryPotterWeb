@@ -170,6 +170,7 @@ q:after {
 .rita {
     width: 300px;
     padding: 1.25rem;
+    float: none;
     
 }
 
