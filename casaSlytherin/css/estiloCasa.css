@@ -17,6 +17,12 @@ header {
     min-height: 100vh;
 }
 
+.bosqueOculto {
+    background: url(/img/bosqueProhibido.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
 .imagenCabecera {
     width: 100vw;
     height: auto;
