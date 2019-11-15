@@ -140,3 +140,7 @@ q:after {
     font-weight: bold;
     padding-top: 10px;
 }
+.img2 {
+    float: left;
+    padding: 1rem;
+}
