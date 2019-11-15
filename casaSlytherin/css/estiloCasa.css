@@ -242,26 +242,40 @@ q:after {
 
 /*estilo video fondo*/
 
-#bg-video-casa {
-  background-size: cover;
-  min-height: 100vh;
-}
 
-/*--noticia principal--*/
 
 .rita {
-  width: 300px;
-  padding: 1.25rem;
-  float: none;
+    width: 300px;
+    padding: 1.25rem;
+    float: left;
+    height: 360px;
+    
 }
-
+.textorita {
+    float: none;
+    
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+}
+#bg-video-casa {
+    background-size: cover;
+    min-height: 100vh;
+}
 .parsel {
   text-align: center;
 }
 
-.imagencentrada {
-  display: flex;
-  justify-content: center;
+.imagencentrada { 
+    float: none;
+    padding: 20px;
+   
+   
+}
+.tituloprof {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
 .mapaHogwarts {
