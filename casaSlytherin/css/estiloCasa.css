@@ -132,6 +132,7 @@ q:after {
 }
 .imagencentrada { 
     float: none;
+    padding: 20px;
    
    
 }
