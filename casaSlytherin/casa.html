@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estiloIndex.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="/casaSlytherin/css/estiloCasa.css">
@@ -18,43 +17,52 @@
 </head>
 
 <body>
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"></a>
-        <img src="/casaSlytherin/img/logos.png" width="90" height="100" class="d-inline-block align-top" alt="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/casaSlytherin/historia.html">Historia</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/casaSlytherin/staff.html">Staff</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/casaSlytherin/foro.html">Foro</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <a href="#"><img class="icono" src="/casaSlytherin/img/profile.svg" alt=""></a>
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+    <header>
+        <!-- <div class="videoFondo">
+    <video src="/casaSlytherin/video/videoFinal/videoFinal.mp4" id="bg-video-casa" style="width: 100%;" autoplay loop muted></video>
 
-    <div class="videoFondo">
-        <video src="/casaSlytherin/video/videoFinal/videoFinal.mp4" id="bg-video-casa" style="width: 100%;" autoplay
-            loop muted></video>
-    </div>
+</div> -->
 
+        <!--NAVBAR-->
+        <nav class="navbar navbar-dark navbar-expand-md">
+            <a class="navbar-brand" href="#"></a>
+            <img src="/casaSlytherin/img/logoSly2.png" width="90" height="100"
+                class="mr-auto d-none d-sm-none d-md-block" alt="">
+            <img src="/casaSlytherin/img/slytherinLogo.jpg" width="90" class="d-block d-sm-block d-md-none mr-auto">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse m-auto text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/casaSlytherin/historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/casaSlytherin/staff.html">Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/casaSlytherin/foro.html">Foro</a>
+                    </li>
+                </ul>
+                <div class="contIconos">
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="/formRegistro.html"><img class="icono" src="/casaSlytherin/img/profile.svg" alt=""></a>
+                    </form>
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Buscar" name="search">
+                        <img class="icono lupa" src="../img/magnifier-tool.svg" alt="lupa">
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <div class="container">
 
@@ -82,9 +90,7 @@
                 <!--staff-->
                 <div class="row">
                     <!--tarjeta 1-->
-                    <div id="tarjeta1" class="col-xs-12 col-sm-6 col-md-4"
-                        style="min-width: width 315px; height: 315px;">
-
+                    <div id="tarjeta1" class="col-xs-12 col-sm-6 col-md-4" style="min-height: height 315px; height: 315px;">
                         <div class="image-flip " ontouchstart="this.classList.toggle( 'hover'); ">
                             <div class="mainflip ">
                                 <div class="frontside ">
@@ -101,9 +107,7 @@
                                     <div class="card ">
                                         <div class="card-body text-center mt-4 ">
                                             <h4 class="card-title ">Albus Dumbledore</h4>
-                                            <p class="card-text ">El director de Hogwartsn desde unas décadas antes del
-                                                nacimiento de Harry hasta su sexto año en Hogwarts, cuando Dumbledore es
-                                                asesinado por Severus Snape.​</p>
+                                            <p class="card-text ">El director de Hogwartsn desde unas décadas antes del nacimiento de Harry hasta su sexto año en Hogwarts, cuando Dumbledore es asesinado por Severus Snape.​</p>
 
                                         </div>
                                     </div>
@@ -112,8 +116,7 @@
                         </div>
                     </div>
                     <!--tarjeta 2-->
-                    <div id="tarjeta2" class="col-xs-12 col-sm-6 col-md-4 "
-                        style="min-width: width 315px; height: 315px; ">
+                    <div id="tarjeta2" class="col-xs-12 col-sm-6 col-md-4 " style="min-height: height 315px;">
                         <div class="image-flip " ontouchstart="this.classList.toggle( 'hover'); ">
                             <div class="mainflip ">
                                 <div class="frontside ">
@@ -131,9 +134,7 @@
                                     <div class="card ">
                                         <div class="card-body text-center mt-4 ">
                                             <h4 class="card-title ">Minerva McGonagall</h4>
-                                            <p class="card-text ">La profesora de Transformaciones y jefa de la casa de
-                                                Gryffindor durante toda la serie.​ Subdirectora durante las primeras
-                                                seis novelas. </p>
+                                            <p class="card-text ">La profesora de Transformaciones y jefa de la casa de Gryffindor durante toda la serie.​ Subdirectora durante las primeras seis novelas. </p>
 
                                         </div>
                                     </div>
@@ -142,8 +143,7 @@
                         </div>
                     </div>
                     <!--tarjeta 3-->
-                    <div id="tarjeta3" class="col-xs-12 col-sm-12 col-md-4 "
-                        style="min-width: width 315px; height: 315px; ; ">
+                    <div id="tarjeta3" class="col-xs-12 col-sm-12 col-md-4 " style="min-width: width 315px; height: 315px; ; ">
                         <div class="image-flip " ontouchstart="this.classList.toggle( 'hover'); ">
                             <div class="mainflip ">
                                 <div class="frontside ">
@@ -160,10 +160,7 @@
                                     <div class="card ">
                                         <div class="card-body text-center mt-4 ">
                                             <h4 class="card-title ">Severus Snape</h4>
-                                            <p class="card-text ">El profesor de Pociones desde el primern​ hasta el
-                                                quinto año de Harry.​ Jefe de la casa de Slytherin desde el primern
-                                                hasta el sexto año de Harry.​ El profesor de Defensa Contra las Artes
-                                                Oscuras en Harry Potter
+                                            <p class="card-text ">El profesor de Pociones desde el primern​ hasta el quinto año de Harry.​ Jefe de la casa de Slytherin desde el primern hasta el sexto año de Harry.​ El profesor de Defensa Contra las Artes Oscuras en Harry Potter
                                                 y el misterio del príncipe.​</p>
 
                                         </div>
@@ -178,7 +175,7 @@
 
                 <div class="row text-center d-flex justify-content-center align-self-center">
                     <div class="col">
-                        <button class="btn btn-dark" type="submit"> <a href="/casaSlytherin/staff.html">Ver
+                        <button class="btn btn-dark text-white" type="submit"> <a href="/casaSlytherin/staff.html">Ver
                                 Mas!</a></button>
 
                     </div>
@@ -191,7 +188,7 @@
                     <div class="col w-100 ">
                         <div class="card mb-3 ">
                             <div class="row no-gutters ">
-                                <div class="imagencentrada ">
+                                <div class="imagencentrada w-100">
                                     <img src="img/rita-skeeter.jpg " class="rita" title="Rita Skeeter">
                                     <div class="tituloprof">El Profeta nuevamente en ridiculo. </div>
 
@@ -257,36 +254,38 @@
             <div class="col ">
                 <div class="row d-flex flex-wrap ">
 
-                    <!--proximos eventos-->
+                    <!--Agenda-->
 
                     <div class="col-lg-12 col-md-6 col-sm-12 w-100 " style="padding: 10px;">
-                        <div class="card text-white bg-dark mb-3 ">
-                            <div class="card-header ">Agenda</div>
-                            <div class="card-body ">
-                                <h5 class="card-title ">Dark card title</h5>
-                                <p class="card-text ">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
+                        <div class="card bg-dark mb-3 agenda">
+                            <div class="card-header">
+                                <h4> Próximos eventos</h4>
+                            </div>
+                            <div class="card-body">
+                                <ul>
+                                    <li class="card-text">25/11- Exámen de Pársel</li>
+                                    <li class="card-text">29/11- Torneo de los Tres Magos</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                     <!--el profeta-->
 
                     <div class="col-lg-12 col-md-6 col-sm-12 " style="padding: 10px;">
-                        <a href="/elprofeta.html"><img src="/img/dailyProphet.png " class="d-block w-100 "
-                                alt="... "></a>
+                        <a href="/elprofeta.html"><img src="/img/dailyProphetSinFondo.png " class="d-block w-100" alt="... "></a>
                     </div>
 
 
                     <!--campeonato quidditch-->
 
                     <div class="col-lg-12 col-md-6 col-sm-12 " style="padding: 10px;">
-                        <a href="/quidditch.html"><img src="/img/quidditch.jpg " class="d-block w-100 " alt="... "></a>
+                        <a href="/quidditch.html"><img src="/img/quidditch.png " class="d-block w-100 " alt="... "></a>
                     </div>
 
                     <!--publicida-->
 
                     <div class="col-lg-12 col-md-6 col-sm-12 " style="padding: 10px;">
-                        <img src="/img/varitas.gif " class="d-block w-100" alt="... ">
+                        <a href="/ronCrashed.html"><img src="/img/varitas.gif " class="d-block w-100" alt="... "></a>
                     </div>
                 </div>
             </div>
@@ -295,9 +294,10 @@
         <!--MAPA HOGWARTS-->
 
         <div class="row ">
-            <div class="col w-100 ">
-                <img class="mapaHogwarts " src="/img/mapa.png " alt=" ">
+            <div class="col-12 col-md-12 col-sm-12  ">
+                <img src="/img/mapa.png " style="width: 100%;" alt=" ">
             </div>
+
         </div>
 
     </div>
@@ -315,7 +315,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2 mb-3">
                     <h6 class="text-uppercase font-weight-bold">
-                        <a href="#" class="text-white1" style="color: lightgray;">Quienes Somos</a>
+                        <a href="/quienesSomos.html" class="text-white1" style="color: lightgray;">Quienes Somos</a>
                     </h6>
                 </div>
                 <!-- Grid column -->
@@ -323,7 +323,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2 mb-3">
                     <h6 class="text-uppercase font-weight-bold">
-                        <a href="#" class="text-white1" style="color: lightgray;">Staff</a>
+                        <a href="/casaSlytherin/staff.html" class="text-white1" style="color: lightgray;">Staff</a>
                     </h6>
                 </div>
                 <!-- Grid column -->
@@ -331,7 +331,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2 mb-3">
                     <h6 class="text-uppercase font-weight-bold">
-                        <a href="#" class="text-white" style="color: lightgray;">Premios</a>
+                        <a href="/ronCrashed.html" class="text-white1" style="color: lightgray;">Premios</a>
                     </h6>
                 </div>
                 <!-- Grid column -->
@@ -339,7 +339,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2 mb-3">
                     <h6 class="text-uppercase font-weight-bold">
-                        <a href="#" class="text-white1" style="color: lightgray;">Casas</a>
+                        <a href="/ronCrashed.html" class="text-white1" style="color: lightgray;">Casas</a>
                     </h6>
                 </div>
                 <!-- Grid column -->
@@ -347,7 +347,7 @@
                 <!-- Grid column -->
                 <div class="col-md-2 mb-3">
                     <h6 class="text-uppercase font-weight-bold">
-                        <a href="#" class="text-white1" style="color: lightgray;">Contactanos</a>
+                        <a href="/ronCrashed.html" class="text-white1" style="color: lightgray;">Contactanos</a>
                     </h6>
                 </div>
                 <!-- Grid column -->
@@ -417,18 +417,23 @@
             <audio controls autoplay controls loop src="/audio/prologue.mp3 " style="display: none; "></audio>
         </div>
     -->
-
+    <script>
+        (function(d, w, c) {
+            w.ChatraID = 'ZQKBXSYxT5oZ7v4tH';
+            var s = d.createElement('script');
+            w[c] = w[c] || function() {
+                (w[c].q = w[c].q || []).push(arguments);
+            };
+            s.async = true;
+            s.src = 'https://call.chatra.io/chatra.js';
+            if (d.head) d.head.appendChild(s);
+        })(document, window, 'Chatra');
+    </script>
 
     <!--JAVASCRIPT BOOTSTRAP-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
-        crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
-        crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
-        crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <script src="/casaSlytherin/js/cita.js "></script>
 </body>
 
