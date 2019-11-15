@@ -211,4 +211,16 @@ q:after {
 
 #gatoh1 {
     font-family: HarryP;
+    color: #C2A138;
+}
+
+#titulosCasas {
+    font-family: HarryP;
+    color: #C2A138;
+}
+
+#bosqueProhibidoTitulo {
+    font-family: HarryP;
+    color: #C2A138;
+    text-align: center;
 }
