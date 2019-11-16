@@ -150,3 +150,19 @@ q:after {
     text-align: center;
     padding: 3rem;
 }
+/*--Mapa--*/
+
+.mapaHogwarts {
+    width: 100%; 
+    position:relative;
+   
+    
+  }
+  .crash {
+    position:absolute;
+    height:200px;
+    width:200px;
+    top: 40px;
+    left : 40px;
+    z-index: 1;
+  }
