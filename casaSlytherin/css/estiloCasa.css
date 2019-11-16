@@ -132,9 +132,9 @@ ul .card-text {
 
 .mapaHogwarts {
   width: 100%; 
-  position:absolute;
+  position:relative;
  
-  z-index: -1;
+  
 }
 .crash {
   position:absolute;
