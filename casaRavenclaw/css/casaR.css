@@ -21,9 +21,8 @@ body {
   margin: 0 10px;
 }
 
-.mapaHogwarts {
-  width: 100%;
-}
+
+
 
 #bridge {
   display: block;
@@ -218,6 +217,21 @@ input ::placeholder {
   padding-top: 10px;
 }
 .img2 {
-  float: left;
-  padding: 1rem;
+    float: left;
+    padding: 1rem;
 }
+/* mapa howards */
+
+.mapaHogwarts {
+    width: 100%; 
+    position:relative; 
+  }
+  
+  .crash {
+    position:absolute;
+    height:200px;
+    width:200px;
+    top: 40px;
+    left : 40px;
+    z-index: 1;
+  }

@@ -101,9 +101,6 @@ input ::placeholder {
   }
 }
 
-.mapaHogwarts {
-  width: 100%;
-}
 
 #bridge {
   display: block;
@@ -224,6 +221,22 @@ q:after {
   height: 360px;
 }
 .txtcen {
-  text-align: center;
-  padding: 3rem;
+    text-align: center;
+    padding: 3rem;
 }
+/*--Mapa--*/
+
+.mapaHogwarts {
+    width: 100%; 
+    position:relative;
+   
+    
+  }
+  .crash {
+    position:absolute;
+    height:200px;
+    width:200px;
+    top: 40px;
+    left : 40px;
+    z-index: 1;
+  }
