@@ -12,9 +12,9 @@ body {
 }
 
 header {
-  background: url(/img/bienvenida.jpg);
   background-size: cover;
   min-height: 100vh;
+  background: url(/video/bgVideo.mp4);
 }
 
 .bosqueOculto {
@@ -54,7 +54,7 @@ li a {
   color: white;
 }
 
-ul li:hover {
+.navbar-nav li:hover {
   transform: translateY(10px);
   color: lightgrey;
 }
@@ -106,6 +106,13 @@ input ::placeholder {
   form {
     margin-top: 7px;
   }
+}
+
+/*estilo video fondo*/
+#bg-video-casa {
+  background-size: cover;
+  min-height: 100vh;
+  z-index: -1;
 }
 
 /*--agenda--*/
@@ -220,7 +227,7 @@ q:after {
   font-size: 4rem;
 }
 
-/*estilo video fondo*/
+/*--Noticia--*/
 
 .rita {
   width: 300px;
@@ -236,10 +243,7 @@ q:after {
   margin: 0 auto;
   text-align: justify;
 }
-#bg-video-casa {
-  background-size: cover;
-  min-height: 100vh;
-}
+
 .parsel {
   text-align: center;
 }

@@ -18,37 +18,41 @@
 </head>
 
 <body>
+
+<header>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <nav class="navbar navbar-dark navbar-expand-lg">
         <a class="navbar-brand" href="#"></a>
-        <img src="/casaHuffplepuf/img/hufflepuffLogo.png" width="90" height="100" class="d-inline-block align-top"
-            alt="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="/img/travesuraRealizadaGold.png" width="200" min-height="100"  class="mr-auto d-none d-sm-none d-md-none d-lg-block" alt="">
+        <img src="/img/travesuraRealizadaGoldFeets.png" width="200" class="d-block d-sm-block d-lg-none mr-auto">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse m-auto text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/casaSlytherin/casa.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ronCrashed.html">Historia</a>
+                    <a class="nav-link" href="/casaSlytherin/historia.html">Historia</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/staff.html">Staff</a>
-                    <!--modificar html, para que sea algo general-->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ronCrashed.html">Foro</a>
+                    <a class="nav-link" href="/casaSlytherin/mapa.html">Mapa</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <a href="#"><img class="icono" src="/casaHuffplepuf/img/hufflepuffLogo.png" alt=""></a>
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <div class="contIconos">
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="/formRegistro.html"><img class="icono" src="/casaSlytherin/img/profile.svg" alt=""></a>
+                </form>
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Buscar" name="search">
+                    <img class="icono lupa" src="../img/magnifier-tool.svg" alt="lupa">
+                </form>
+            </div>
         </div>
     </nav>
 
@@ -56,7 +60,7 @@
         <video src="/casaHuffplepuf/video/videoFinal/videoFinal.mp4" id="bg-video-casa" style="width: 100%;" autoplay
             loop muted></video>
     </div>
-
+</header>
 
     <div class="container">
 
@@ -248,7 +252,7 @@
                                             mostrar la menor rivalidad con las demás casas,
                                         </p>
                                         <h3 class="parsel">La Casa Comun</h3>
-                                        <p>
+                                        <p class="textorita">
                                             A la sala común de Hufflepuff se accede desde el mismo pasillo que a las
                                             cocinas de Hogwarts. Pasando delante del bodegón que forma la entrada a las
                                             cocinas, se encontrará una gran pila de barriles en un hueco oscuro en la
