@@ -1,150 +1,143 @@
         * {
-        cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
-    }
-    
-    body {
-        background: black;
-    }
-    
-    .body {
-        padding: 0;
-        margin: 0;
-    }
-    
-    header {
-        background: url(/img/bienvenida.jpg);
-        background-size: cover;
-        min-height: 100vh;
-    }
-    
-    .bosqueOculto {
-        background: url(/img/bosqueProhibido.jpg);
-        background-size: cover;
-        min-height: 100vh;
-    }
-    
-    .imagenCabecera {
-        width: 100vw;
-        height: auto;
-    }
-    /*NavBar*/
-    
-    .navbar {
-        background-color: rgba(0, 0, 0, 0.5);
-        min-height: 130px;
-    }
-    
-    .icono {
-        width: 25px;
-        margin: 15px;
-        background-color: transparent;
-        border: none;
-    }
-    
-    .nav-link {
-        color: lightgray;
-        letter-spacing: 1px;
-        text-decoration: none;
-        font-family: sans-serif;
-        text-transform: uppercase;
-    }
-    
-    li a {
-        color: white;
-    }
-    
-    ul li:hover {
-        transform: translateY(10px);
-        color: lightgrey;
-    }
-    
-    form img {
-        color: lightgrey;
-    }
-    
-    input {
-        background: transparent;
-        border: none;
-        border-bottom: 1px solid lightgrey;
-        font-size: 14px;
-        font-family: sans-serif;
-        color: white;
-    }
-    
-    input ::placeholder {
-        color: whitesmoke;
-    }
-    
-    .navbar-toggler {
-        margin-right: 20px;
-        border-color: lightgray;
-        color: lightgray;
-    }
-    
-    @media (max-width: 998px) {
+          cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
+        }
+
+        body {
+          background: black;
+        }
+
+        .body {
+          padding: 0;
+          margin: 0;
+        }
+
+        header {
+          background: url(/img/bienvenida.jpg);
+          background-size: cover;
+          min-height: 100vh;
+        }
+
+        .bosqueOculto {
+          background: url(/img/bosqueProhibido.jpg);
+          background-size: cover;
+          min-height: 100vh;
+        }
+
+        .imagenCabecera {
+          width: 100vw;
+          height: auto;
+        }
+
+        /*NavBar*/
+
+        .navbar {
+          background-color: rgba(0, 0, 0, 0.5);
+          min-height: 130px;
+        }
+
+        .icono {
+          width: 25px;
+          margin: 15px;
+          background-color: transparent;
+          border: none;
+        }
+
+        .nav-link {
+          color: lightgray;
+          letter-spacing: 1px;
+          text-decoration: none;
+          font-family: sans-serif;
+          text-transform: uppercase;
+        }
+
+        li a {
+          color: white;
+        }
+
+        ul li:hover {
+          transform: translateY(10px);
+          color: lightgrey;
+        }
+
+        form img {
+          color: lightgrey;
+        }
+
         input {
+          background: transparent;
+          border: none;
+          border-bottom: 1px solid lightgrey;
+          font-size: 14px;
+          font-family: sans-serif;
+          color: white;
+        }
+
+        input ::placeholder {
+          color: whitesmoke;
+        }
+
+        .navbar-toggler {
+          margin-right: 20px;
+          border-color: lightgray;
+          color: lightgray;
+        }
+
+        @media (max-width: 998px) {
+          input {
             display: none;
-        }
-        form .lupa {
+          }
+          form .lupa {
             margin-top: 22px;
-        }
-        .contIconos {
+          }
+          .contIconos {
             display: flex;
             justify-content: center;
+          }
         }
-    }
-    
-    @media (min-width: 769px) {
-        .contIconos {
+
+        @media (min-width: 769px) {
+          .contIconos {
             display: flex;
             flex-direction: row;
-        }
-        @media (min-width: 769px) {
+          }
+          @media (min-width: 769px) {
             .contIconos {
-                display: flex;
-                flex-direction: row;
+              display: flex;
+              flex-direction: row;
             }
             form {
-                margin-top: 7px;
+              margin-top: 7px;
             }
-        }
-        /*--agenda--*/
-        .agenda {
+          }
+          /*--agenda--*/
+          .agenda {
             background: #007b5e;
-        }
-        ul .card-text {
+          }
+          ul .card-text {
             color: whitesmoke;
-        }
-        .card-header {
+          }
+          .card-header {
             color: whitesmoke;
-        }
-        /*estilo de letra*/
-        @font-face {
+          }
+          /*estilo de letra*/
+          @font-face {
             font-family: harryP;
             src: url(/font/HARRYP__.TTF);
-        }
-        /*--Mapa--*/
-        .mapaHogwarts {
-          width: 100%; 
-          position:relative;
-         
-          
-        }
-        .crash {
-          position:absolute;
-          height:200px;
-          width:200px;
-          top: 40px;
-          left : 40px;
-          z-index: 1;
-        }
-        
-
-
-
-
-
-        #bridge {
+          }
+          /*--Mapa--*/
+          .mapaHogwarts {
+            width: 100%;
+            position: relative;
+          }
+          .crash {
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            top: 40px;
+            left: 40px;
+            z-index: 1;
+          }
+          #bridge {
             display: block;
             margin: 0 auto;
             background-image: url(/casaSlytherin/img/members.jpg);
@@ -155,28 +148,28 @@
             height: auto;
             cursor: crosshair;
             cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
-        }
-        #bridgeContainer {
+          }
+          #bridgeContainer {
             text-align: center;
             font-family: Avenir, sans-serif;
-        }
-        #bridgeContainer figcaption {
+          }
+          #bridgeContainer figcaption {
             margin-top: 2rem;
-        }
-        /*perfiles profesores*/
-        .logo {
+          }
+          /*perfiles profesores*/
+          .logo {
             width: 80%;
             border-radius: 100%;
-        }
-        .tarjetas {
+          }
+          .tarjetas {
             border-radius: 5%;
             background-color: #f9f7f1;
-        }
-        /* esto es de las citas de texto*/
-        blockquote {
+          }
+          /* esto es de las citas de texto*/
+          blockquote {
             font-size: 3rem;
-        }
-        cite {
+          }
+          cite {
             display: block;
             text-align: right;
             font-family: Verdana, Arial, sans-serif;
@@ -184,98 +177,97 @@
             font-size: 0.9rem;
             color: lightgray;
             font-style: normal;
-        }
-        blockquote q {
+          }
+          blockquote q {
             font-family: Georgia, serif;
             font-style: italic;
             letter-spacing: 0.1rem;
-        }
-        blockquote q span {
+          }
+          blockquote q span {
             will-change: opacity, filter;
             opacity: 0;
             filter: blur(0px);
-        }
-        q {
+          }
+          q {
             quotes: "“" "”" "‘" "’";
-        }
-        q:before {
+          }
+          q:before {
             content: open-quote;
             margin-right: 0.8rem;
-        }
-        q:after {
+          }
+          q:after {
             content: close-quote;
-        }
-        q:before,
-        q:after {
+          }
+          q:before, q:after {
             color: #ccc;
             font-size: 4rem;
-        }
-        /*estilo video fondo*/
-        .rita {
+          }
+          /*estilo video fondo*/
+          .rita {
             width: 300px;
             padding: 1.25rem;
             float: left;
             height: 360px;
-        }
-        .textorita {
+          }
+          .textorita {
             float: none;
             padding-left: 1rem;
             padding-right: 1rem;
             margin: 0 auto;
             text-align: justify;
-        }
-        #bg-video-casa {
+          }
+          #bg-video-casa {
             background-size: cover;
             min-height: 100vh;
-        }
-        .parsel {
+          }
+          .parsel {
             text-align: center;
-        }
-        .imagencentrada {
+          }
+          .imagencentrada {
             float: none;
             padding: 20px;
             background-color: #f9f7f1;
-        }
-        .tituloprof {
+          }
+          .tituloprof {
             font-size: large;
             font-weight: bold;
             padding-top: 10px;
-        }
-        .mapaHogwarts {
+          }
+          .mapaHogwarts {
             position: relative;
-        }
-        .simbolo {
+          }
+          .simbolo {
             position: absolute;
             top: 80px;
             right: 0;
-        }
-        #deathlyHallow {
+          }
+          #deathlyHallow {
             width: 70px;
             height: 70px;
-        }
-        #gato {
+          }
+          #gato {
             width: 50%;
-        }
-        @font-face {
+          }
+          @font-face {
             font-family: HarryP;
             src: url(/font/HARRYP__.TTF);
-        }
-        #gatoh1 {
+          }
+          #gatoh1 {
             font-family: HarryP;
             color: #c2a138;
-        }
-        #titulosCasas {
+          }
+          #titulosCasas {
             font-family: HarryP;
             color: #c2a138;
-        }
-        #bosqueProhibidoTitulo {
+          }
+          #bosqueProhibidoTitulo {
             font-family: HarryP;
             color: #c2a138;
             text-align: center;
-        }
-        .textosGris p {
+          }
+          .textosGris p {
             color: rgba(211, 211, 211, 0.632);
-        }
-        .textosGris li {
+          }
+          .textosGris li {
             color: rgba(211, 211, 211, 0.632);
-        }
+          }
