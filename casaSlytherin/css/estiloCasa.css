@@ -250,3 +250,29 @@ input ::placeholder {
     left: 40px;
     z-index: 1;
 }
+
+
+/*texto gris*/
+
+.textosGris p {
+    color: rgba(128, 128, 128, 0.612);
+}
+
+
+/*textos dorados*/
+
+@font-face {
+    font-family: HarryP;
+    src: url(/font/HARRYP__.TTF);
+}
+
+#titulosCasas {
+    color: goldenrod;
+    font-family: HarryP;
+}
+
+#bosqueProhibidoTitulo {
+    color: goldenrod;
+    font-family: HarryP;
+    text-align: center;
+}
