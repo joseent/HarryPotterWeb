@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!--CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estiloIndex.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="/casaGriffindor/css/casaG.css">
@@ -19,41 +18,43 @@
 
 <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-dark navbar-expand-md">
         <a class="navbar-brand" href="#"></a>
-        <img src="/casaGriffindor/img/logo.png" width="90" height="100" class="d-inline-block align-top" alt="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <img src="/casaSlytherin/img/logoSly2.png" width="90" height="100" class="mr-auto d-none d-sm-none d-md-block" alt="">
+        <img src="/casaSlytherin/img/slytherinLogo.jpg" width="90" class="d-block d-sm-block d-md-none mr-auto">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse m-auto text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/casaSlytherin/casa.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ronCrashed.html">Historia</a>
+                    <a class="nav-link" href="/casaSlytherin/historia.html">Historia</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/staff.html">Staff</a>
-                    <!--modificar html, para que sea algo general-->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ronCrashed.html">Foro</a>
+                    <a class="nav-link" href="/casaSlytherin/mapa.html">Mapa</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <a href="#"><img class="icono" src="/casaGriffindor/img/logo.png" alt=""></a>
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <div class="contIconos">
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="/formRegistro.html"><img class="icono" src="/casaSlytherin/img/profile.svg" alt=""></a>
+                </form>
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Buscar" name="search">
+                    <img class="icono lupa" src="../img/magnifier-tool.svg" alt="lupa">
+                </form>
+            </div>
         </div>
     </nav>
 
     <div class="videoFondo">
-        <video src="/casaGriffindor/video/videoFondo/videoFondo.mp4" id="bg-video-casa" style="width: 100%;" autoplay
-            loop muted></video>
+        <video src="/casaGriffindor/video/videoFondo/videoFondo.mp4" id="bg-video-casa" style="width: 100%;" autoplay loop muted></video>
     </div>
 
 
@@ -83,8 +84,7 @@
                 <!--staff-->
                 <div class="row">
                     <!--tarjeta 1-->
-                    <div id="tarjeta1" class="col-xs-12 col-sm-6 col-md-4"
-                        style="min-width: width 315px; height: 315px;">
+                    <div id="tarjeta1" class="col-xs-12 col-sm-6 col-md-4" style="min-width: width 315px; height: 315px;">
 
                         <div class="image-flip " ontouchstart="this.classList.toggle( 'hover'); ">
                             <div class="mainflip ">
@@ -102,9 +102,7 @@
                                     <div class="card ">
                                         <div class="card-body text-center mt-4 ">
                                             <h4 class="card-title ">Albus Dumbledore</h4>
-                                            <p class="card-text ">El director de Hogwartsn desde unas décadas antes del
-                                                nacimiento de Harry hasta su sexto año en Hogwarts, cuando Dumbledore es
-                                                asesinado por Severus Snape.​</p>
+                                            <p class="card-text ">El director de Hogwartsn desde unas décadas antes del nacimiento de Harry hasta su sexto año en Hogwarts, cuando Dumbledore es asesinado por Severus Snape.​</p>
 
                                         </div>
                                     </div>
@@ -113,8 +111,7 @@
                         </div>
                     </div>
                     <!--tarjeta 2-->
-                    <div id="tarjeta2" class="col-xs-12 col-sm-6 col-md-4 "
-                        style="min-width: width 315px; height: 315px; ">
+                    <div id="tarjeta2" class="col-xs-12 col-sm-6 col-md-4 " style="min-width: width 315px; height: 315px; ">
                         <div class="image-flip " ontouchstart="this.classList.toggle( 'hover'); ">
                             <div class="mainflip ">
                                 <div class="frontside ">
@@ -132,9 +129,7 @@
                                     <div class="card ">
                                         <div class="card-body text-center mt-4 ">
                                             <h4 class="card-title ">Minerva McGonagall</h4>
-                                            <p class="card-text ">La profesora de Transformaciones y jefa de la casa de
-                                                Gryffindor durante toda la serie.​ Subdirectora durante las primeras
-                                                seis novelas. </p>
+                                            <p class="card-text ">La profesora de Transformaciones y jefa de la casa de Gryffindor durante toda la serie.​ Subdirectora durante las primeras seis novelas. </p>
 
                                         </div>
                                     </div>
@@ -143,8 +138,7 @@
                         </div>
                     </div>
                     <!--tarjeta 3-->
-                    <div id="tarjeta3" class="col-xs-12 col-sm-12 col-md-4 "
-                        style="min-width: width 315px; height: 315px; ; ">
+                    <div id="tarjeta3" class="col-xs-12 col-sm-12 col-md-4 " style="min-width: width 315px; height: 315px; ; ">
                         <div class="image-flip " ontouchstart="this.classList.toggle( 'hover'); ">
                             <div class="mainflip ">
                                 <div class="frontside ">
@@ -161,10 +155,7 @@
                                     <div class="card ">
                                         <div class="card-body text-center mt-4 ">
                                             <h4 class="card-title ">Severus Snape</h4>
-                                            <p class="card-text ">El profesor de Pociones desde el primern​ hasta el
-                                                quinto año de Harry.​ Jefe de la casa de Slytherin desde el primern
-                                                hasta el sexto año de Harry.​ El profesor de Defensa Contra las Artes
-                                                Oscuras en Harry Potter
+                                            <p class="card-text ">El profesor de Pociones desde el primern​ hasta el quinto año de Harry.​ Jefe de la casa de Slytherin desde el primern hasta el sexto año de Harry.​ El profesor de Defensa Contra las Artes Oscuras en Harry Potter
                                                 y el misterio del príncipe.​</p>
 
                                         </div>
@@ -197,15 +188,10 @@
                                     <div class="tituloprof">El gran Godric Gryffindor. </div>
 
                                     <p class="textorita">
-                                        Godric Gryffindor fue un mago de sangre pura, nacido en un día de junio, en el
-                                        Valle de Godric hace más o menos mil años. Él y su familia vivieron en África
-                                        por algún tiempo, lejos de la cacería de brujas en Inglaterra. Esto hizo que
-                                        Godric descubriera la vida salvaje de África, la cual le comenzaba a agradar.
-                                        Disfrutaba especialmente observando a los leones. Godric era aventurero, por eso
-                                        no era difícil saber que se metió en líos. Sin embargo, él era tan noble que sus
-                                        padres casi no lo tenían que retar. Godric aprendió todo lo que sabía de magia
-                                        por medio de su padre, quien solía ser profesor, y quien siempre pensó que
-                                        tendría que haber una escuela de magia para los niños con habilidades mágicas.
+                                        Godric Gryffindor fue un mago de sangre pura, nacido en un día de junio, en el Valle de Godric hace más o menos mil años. Él y su familia vivieron en África por algún tiempo, lejos de la cacería de brujas en Inglaterra. Esto hizo que Godric descubriera
+                                        la vida salvaje de África, la cual le comenzaba a agradar. Disfrutaba especialmente observando a los leones. Godric era aventurero, por eso no era difícil saber que se metió en líos. Sin embargo, él era tan noble
+                                        que sus padres casi no lo tenían que retar. Godric aprendió todo lo que sabía de magia por medio de su padre, quien solía ser profesor, y quien siempre pensó que tendría que haber una escuela de magia para los niños
+                                        con habilidades mágicas.
 
                                     </p>
 
@@ -213,41 +199,23 @@
                                     <div>
 
                                         <p class="textorita">
-                                            Cuando Godric tenía 18 años volvió a Inglaterra él solo. Fue a vivir a
-                                            Hogsmeade, pues había oído que estaba cerca de un Bosque Prohibido. Conoció
-                                            allí a un joven mago, Salazar Slytherin, que se convirtió en su amigo.
-                                            Godric encontró en Salazar el mismo espíritu aventurero que él tenía. Godric
-                                            tenía el sueño de crear una gran escuela de magia con Salazar, como su
-                                            padre, quien aceptó. Para entonces ambos tenían al menos 30 años, mantenían
-                                            su amistad y comenzaban a ser magos famosos, con grandes poderes.
+                                            Cuando Godric tenía 18 años volvió a Inglaterra él solo. Fue a vivir a Hogsmeade, pues había oído que estaba cerca de un Bosque Prohibido. Conoció allí a un joven mago, Salazar Slytherin, que se convirtió en su amigo. Godric encontró en Salazar el mismo
+                                            espíritu aventurero que él tenía. Godric tenía el sueño de crear una gran escuela de magia con Salazar, como su padre, quien aceptó. Para entonces ambos tenían al menos 30 años, mantenían su amistad y comenzaban
+                                            a ser magos famosos, con grandes poderes.
                                         </p>
                                         <img src="/casaGriffindor/img/gryff.png" class="img2" title="Helga">
                                         <h4 class="tituloprof">Fundación de Hogwarts y disputa con Slytherin</h4>
                                         <p class="textorita">
-                                            Fue maestro de pociones y de defensa contra las artes oscuras. Mientras
-                                            Salazar
-                                            Slytherin estuvo en contacto con Helga Hufflepuff, otra gran bruja de la
-                                            época, con quien comenzó a construir Hogwarts, Godric
-                                            Gryffindor conoce a Rowena Ravenclaw. Ell compartió la sabiduría más allá de
-                                            sus años con los otros profesores de Hogwarts. Godric comenzó a distanciarse
-                                            de Salazar, y comenzó a hacer más demandas para la escuela. Salazar comenzó
-                                            a enojarse con Hogwarts, Godric y con los magos nacidos de muggles, por lo
-                                            que finalmente dejó la escuela, y finalizó su amistad con Godric, dando paso
-                                            a la enemistad. Pero Godric siempre mantuvo su cabeza y nobleza bien altos.
-                                            Hoy, él representa la más respetada de las cuatro casas de Hogwarts. Godric
-                                            siempre fue valiente y noble, y el león simboliza la casa de Gryffindor.
+                                            Fue maestro de pociones y de defensa contra las artes oscuras. Mientras Salazar Slytherin estuvo en contacto con Helga Hufflepuff, otra gran bruja de la época, con quien comenzó a construir Hogwarts, Godric Gryffindor conoce a Rowena Ravenclaw. Ell compartió
+                                            la sabiduría más allá de sus años con los otros profesores de Hogwarts. Godric comenzó a distanciarse de Salazar, y comenzó a hacer más demandas para la escuela. Salazar comenzó a enojarse con Hogwarts, Godric
+                                            y con los magos nacidos de muggles, por lo que finalmente dejó la escuela, y finalizó su amistad con Godric, dando paso a la enemistad. Pero Godric siempre mantuvo su cabeza y nobleza bien altos. Hoy, él representa
+                                            la más respetada de las cuatro casas de Hogwarts. Godric siempre fue valiente y noble, y el león simboliza la casa de Gryffindor.
                                         </p>
                                         <h4 class="tituloprof">El Sombrero y La Espada</h4>
                                         <p>
-                                            Fue el primer dueño del célebre Sombrero Seleccionador, quien plantea que
-                                            Godric vino del páramo silvestre. Su espada, con rubíes en la empuñadura,
-                                            también se conserva en la actualidad y Albus Dumbledore quiso dejársela a
-                                            Harry en herencia. Lamentablemente, el Ministerio de Magia no lo consintió.
-                                            El director no creía que este objeto fuese un horcrux de
-                                            Voldemort, ya que a su juicio no pudo tener ocasión de realizar el hechizo.
-                                            El rey de los duendes Ragnuk el primero que acusó a Godric de haberle robado
-                                            su espada, teoría que sostienen muchos duendes. Sin embargo, Godric no robó
-                                            la espada.
+                                            Fue el primer dueño del célebre Sombrero Seleccionador, quien plantea que Godric vino del páramo silvestre. Su espada, con rubíes en la empuñadura, también se conserva en la actualidad y Albus Dumbledore quiso dejársela a Harry en herencia. Lamentablemente,
+                                            el Ministerio de Magia no lo consintió. El director no creía que este objeto fuese un horcrux de Voldemort, ya que a su juicio no pudo tener ocasión de realizar el hechizo. El rey de los duendes Ragnuk el primero
+                                            que acusó a Godric de haberle robado su espada, teoría que sostienen muchos duendes. Sin embargo, Godric no robó la espada.
                                         </p>
 
                                     </div>
@@ -275,16 +243,14 @@
                             <div class="card-header ">Agenda</div>
                             <div class="card-body ">
                                 <h5 class="card-title ">Dark card title</h5>
-                                <p class="card-text ">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                             </div>
                         </div>
                     </div>
                     <!--el profeta-->
 
                     <div class="col-lg-12 col-md-6 col-sm-12 " style="padding: 10px;">
-                        <a href="/elprofeta.html"><img src="/img/dailyProphet.png " class="d-block w-100 "
-                                alt="... "></a>
+                        <a href="/elprofeta.html"><img src="/img/dailyProphet.png " class="d-block w-100 " alt="... "></a>
                     </div>
 
 
@@ -372,9 +338,7 @@
 
                 <!-- Grid column -->
                 <div class="col-md-8 col-12 ">
-                    <p style="line-height: 1.7rem; color: lightgray;"> Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Facilis nemo doloremque recusandae, soluta vero quod enim dignissimos, harum
-                        non fuga cumque officiis molestias dicta unde commodi? Unde quis veritatis laboriosam. </p>
+                    <p style="line-height: 1.7rem; color: lightgray;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo doloremque recusandae, soluta vero quod enim dignissimos, harum non fuga cumque officiis molestias dicta unde commodi? Unde quis veritatis laboriosam. </p>
                 </div>
                 <!-- Grid column -->
 
@@ -431,15 +395,9 @@
 
 
     <!--JAVASCRIPT BOOTSTRAP-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
-        crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
-        crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
-        crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <script src="/casaSlytherin/js/cita.js "></script>
 </body>
 
