@@ -32,6 +32,7 @@ header {
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.5);
+  min-height: 130px;
 }
 
 .icono {
@@ -75,7 +76,13 @@ input ::placeholder {
   color: whitesmoke;
 }
 
-@media (max-width: 768px) {
+.navbar-toggler {
+  margin-right: 20px;
+  border-color: lightgray;
+  color: lightgray;
+}
+
+@media (max-width: 998px) {
   input {
     display: none;
   }
@@ -90,27 +97,6 @@ input ::placeholder {
   }
 }
 
-ul li:hover {
-  transform: translateY(10px);
-  color: lightgrey;
-}
-
-form img {
-  color: lightgrey;
-}
-
-input {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid lightgrey;
-  font-size: 14px;
-  font-family: sans-serif;
-  color: white;
-}
-
-input ::placeholder {
-  color: whitesmoke;
-}
 @media (min-width: 769px) {
   .contIconos {
     display: flex;
@@ -122,17 +108,10 @@ input ::placeholder {
   }
 }
 
-@media (min-width: 998px) {
-  form {
-    margin-top: 2px;
-  }
-}
-
 /*--agenda--*/
 
 .agenda {
   background: #007b5e;
-  box-shadow: 5px 5px 2px grey;
 }
 
 ul .card-text {
@@ -191,6 +170,7 @@ ul .card-text {
 
 .tarjetas {
   border-radius: 5%;
+  background-color: #f9f7f1;
 }
 
 /* esto es de las citas de texto*/
@@ -242,40 +222,37 @@ q:after {
 
 /*estilo video fondo*/
 
-
-
 .rita {
-    width: 300px;
-    padding: 1.25rem;
-    float: left;
-    height: 360px;
-    
+  width: 300px;
+  padding: 1.25rem;
+  float: left;
+  height: 360px;
 }
 .textorita {
-    float: none;
-    
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin: 0 auto;
+  float: none;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+  text-align: justify;
 }
 #bg-video-casa {
-    background-size: cover;
-    min-height: 100vh;
+  background-size: cover;
+  min-height: 100vh;
 }
 .parsel {
   text-align: center;
 }
 
-.imagencentrada { 
-    float: none;
-    padding: 20px;
-   
-   
+.imagencentrada {
+  float: none;
+  padding: 20px;
+  background-color: #f9f7f1;
 }
 .tituloprof {
-    font-size: large;
-    font-weight: bold;
-    padding-top: 10px;
+  font-size: large;
+  font-weight: bold;
+  padding-top: 10px;
 }
 
 .mapaHogwarts {

@@ -1,13 +1,16 @@
 #fondo {
-    background-image: url(/img/quidditchField.jpg);
+  background-image: url(/img/quidditchField.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 @font-face {
-    font-family: HARRYP;
-    src: url(/font/HARRYP__.TTF);
+  font-family: HARRYP;
+  src: url(/font/HARRYP__.TTF);
 }
 
 h1 {
-    font-family: HARRYP;
-    font-size: 4rem;
+  font-family: HARRYP;
+  font-size: 4rem;
 }

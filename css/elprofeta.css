@@ -1,23 +1,27 @@
-        .container {
-            background-color: #fff8ed;
-            border-radius: 15px;
-        }
-        
-        @font-face {
-            font-family: HarryP;
-            src: url(/font/HARRYP_.TTF);
-        }
-        
-        .verticalLine {
-            border-left: solid rgba(211, 211, 211, 0.598);
-        }
-        
-        @media screen and (max-width: 600px) {
-            #logoProfeta {
-                width: 300px;
-                flex: center;
-            }
-            #logoProfeta2 {
-                display: none;
-            }
-        }
+.container {
+  background-color: #fff8ed;
+  border-radius: 15px;
+}
+
+p {
+  text-align: justify;
+}
+
+@font-face {
+  font-family: HarryP;
+  src: url(/font/HARRYP_.TTF);
+}
+
+.verticalLine {
+  border-left: solid rgba(211, 211, 211, 0.598);
+}
+
+@media screen and (max-width: 600px) {
+  #logoProfeta {
+    width: 300px;
+    flex: center;
+  }
+  #logoProfeta2 {
+    display: none;
+  }
+}
