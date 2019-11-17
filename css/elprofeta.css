@@ -3,8 +3,15 @@
   border-radius: 15px;
 }
 
+h2 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
+
 p {
   text-align: justify;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
 }
 
 @font-face {
@@ -23,5 +30,82 @@ p {
   }
   #logoProfeta2 {
     display: none;
+  }
+}
+
+/*NavBar*/
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 130px;
+}
+
+.icono {
+  width: 25px;
+  margin: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.nav-link {
+  color: lightgray;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+li a {
+  color: white;
+}
+
+.navbar-nav li:hover {
+  transform: translateY(10px);
+  color: lightgrey;
+}
+
+form img {
+  color: lightgrey;
+}
+
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  font-size: 14px;
+  font-family: sans-serif;
+  color: white;
+}
+
+input ::placeholder {
+  color: whitesmoke;
+}
+
+.navbar-toggler {
+  margin-right: 20px;
+  border-color: lightgray;
+  color: lightgray;
+}
+
+@media (max-width: 998px) {
+  input {
+    display: none;
+  }
+  form .lupa {
+    margin-top: 22px;
+  }
+  .contIconos {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 769px) {
+  .contIconos {
+    display: flex;
+    flex-direction: row;
+  }
+  form {
+    margin-top: 7px;
   }
 }

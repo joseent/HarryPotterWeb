@@ -2,8 +2,9 @@
   position: relative;
   width: 100vw;
   min-height: 100vh;
-  background: url(../img/fondoEncuesta.jpg);
+  background: url(../img/hogwarts.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 
