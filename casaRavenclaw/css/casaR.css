@@ -257,3 +257,15 @@ input ::placeholder {
   left: 40px;
   z-index: 1;
 }
+
+/*--Modal oculto--*/
+
+.modalLink {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.modalLink:hover {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+}

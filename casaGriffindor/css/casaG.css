@@ -159,6 +159,12 @@ input ::placeholder {
   border-radius: 5%;
 }
 
+
+a .boton  {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 /* esto es de las citas de texto*/
 
 blockquote {
@@ -265,4 +271,16 @@ q:after {
   top: 40px;
   left: 40px;
   z-index: 1;
+}
+
+/*--Modal oculto--*/
+
+.modalLink {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.modalLink:hover {
+  text-decoration: none;
+  color: rgb(41, 41, 41);
 }
