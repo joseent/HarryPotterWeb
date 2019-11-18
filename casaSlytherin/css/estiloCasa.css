@@ -226,6 +226,7 @@ input ::placeholder {
 .imagencentrada {
   float: none;
   background-color: #f9f7f1;
+  padding: 20px;
 }
 
 .tituloprof {
