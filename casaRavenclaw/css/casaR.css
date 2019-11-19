@@ -192,9 +192,6 @@ input ::placeholder {
     display: flex;
     flex-direction: row;
   }
-  form {
-    margin-top: 7px;
-  }
 }
 
 /*--agenda--*/
