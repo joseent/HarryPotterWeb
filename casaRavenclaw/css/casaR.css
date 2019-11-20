@@ -1,268 +1,272 @@
 * {
-  cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
+    cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
 }
 
 body {
-  background: black;
+    background: black;
 }
 
 .body {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
+
 
 /*video fondo al fin*/
 
 #videoBG {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  min-width: 100%;
-  min-height: 100%;
-  object-fit: fill;
-  height: 100%;
-  z-index: -1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+    height: 100%;
+    z-index: -1;
 }
 
 .imagenCabecera {
-  width: 100vw;
-  height: auto;
+    width: 100vw;
+    height: auto;
 }
 
 .icono {
-  width: 30px;
-  margin: 0 10px;
+    width: 30px;
+    margin: 0 10px;
 }
 
 #bridge {
-  display: block;
-  margin: 0 auto;
-  background-image: url(/casaSlytherin/img/members.jpg);
-  background-image: -webkit-image-set(
-    url("/casaSlytherin/img/members.jpg") 1x,
-    url("/casaSlytherin/img/members.jpg") 2x
-  );
-  background-size: cover;
-  width: 100%;
-  max-width: 750px;
-  height: auto;
-  cursor: crosshair;
-  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png)
-      53 53,
-    crosshair;
+    display: block;
+    margin: 0 auto;
+    background-image: url(/casaSlytherin/img/members.jpg);
+    background-image: -webkit-image-set( url("/casaSlytherin/img/members.jpg") 1x, url("/casaSlytherin/img/members.jpg") 2x);
+    background-size: cover;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    cursor: crosshair;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
 }
 
 #bridgeContainer {
-  text-align: center;
-  font-family: Avenir, sans-serif;
+    text-align: center;
+    font-family: Avenir, sans-serif;
 }
 
 #bridgeContainer figcaption {
-  margin-top: 2rem;
+    margin-top: 2rem;
 }
+
 
 /*perfiles profesores*/
 
 .logo {
-  width: 80%;
-  border-radius: 100%;
+    width: 80%;
+    border-radius: 100%;
 }
 
 .tarjetas {
-  border-radius: 5%;
+    border-radius: 5%;
 }
+
 
 /* esto es de las citas de texto*/
 
 blockquote {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 cite {
-  display: block;
-  text-align: right;
-  font-family: Verdana, Arial, sans-serif;
-  margin-top: 1rem;
-  font-size: 0.9rem;
-  color: lightgray;
-  font-style: normal;
+    display: block;
+    text-align: right;
+    font-family: Verdana, Arial, sans-serif;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: lightgray;
+    font-style: normal;
 }
 
 blockquote q {
-  font-family: Georgia, serif;
-  font-style: italic;
-  letter-spacing: 0.1rem;
+    font-family: Georgia, serif;
+    font-style: italic;
+    letter-spacing: 0.1rem;
 }
 
 blockquote q span {
-  will-change: opacity, filter;
-  opacity: 0;
-  filter: blur(0px);
+    will-change: opacity, filter;
+    opacity: 0;
+    filter: blur(0px);
 }
 
 q {
-  quotes: "“" "”" "‘" "’";
+    quotes: "“" "”" "‘" "’";
+    color: white;
 }
 
 q:before {
-  content: open-quote;
-  margin-right: 0.8rem;
+    content: open-quote;
+    margin-right: 0.8rem;
 }
 
 q:after {
-  content: close-quote;
+    content: close-quote;
 }
 
 q:before,
 q:after {
-  color: #ccc;
-  font-size: 4rem;
+    color: #ccc;
+    font-size: 4rem;
 }
+
 
 /*NavBar*/
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.5);
-  min-height: 130px;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 130px;
 }
 
 .icono {
-  width: 25px;
-  margin: 15px;
-  background-color: transparent;
-  border: none;
+    width: 25px;
+    margin: 15px;
+    background-color: transparent;
+    border: none;
 }
 
 .nav-link {
-  color: lightgray;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-family: sans-serif;
-  text-transform: uppercase;
+    color: lightgray;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
 }
 
 li a {
-  color: white;
+    color: white;
 }
 
 .navbar-nav li:hover {
-  transform: translateY(10px);
-  color: lightgrey;
+    transform: translateY(10px);
+    color: lightgrey;
 }
 
 form img {
-  color: lightgrey;
+    color: lightgrey;
 }
 
 input {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid lightgrey;
-  font-size: 14px;
-  font-family: sans-serif;
-  color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
 }
 
 input ::placeholder {
-  color: whitesmoke;
+    color: whitesmoke;
 }
 
 .navbar-toggler {
-  margin-right: 20px;
-  border-color: lightgray;
-  color: lightgray;
+    margin-right: 20px;
+    border-color: lightgray;
+    color: lightgray;
 }
 
 @media (max-width: 998px) {
-  input {
-    display: none;
-  }
-  form .lupa {
-    margin-top: 22px;
-  }
-  .contIconos {
-    display: flex;
-    justify-content: center;
-  }
+    input {
+        display: none;
+    }
+    form .lupa {
+        margin-top: 22px;
+    }
+    .contIconos {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 769px) {
-  .contIconos {
-    display: flex;
-    flex-direction: row;
-  }
+    .contIconos {
+        display: flex;
+        flex-direction: row;
+    }
 }
+
 
 /*--agenda--*/
 
 .agenda {
-  background-color: #227cc3;
-  color: whitesmoke;
+    background-color: #227cc3;
+    color: whitesmoke;
 }
+
 
 /*estilo video fondo*/
 
 .rita {
-  width: 300px;
-  padding: 1.25rem;
-  float: left;
-  height: 360px;
+    width: 300px;
+    padding: 1.25rem;
+    float: left;
+    height: 360px;
 }
 
 .textorita {
-  float: none;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: 0 auto;
-  text-align: justify;
+    float: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0 auto;
+    text-align: justify;
 }
 
 .parsel {
-  text-align: center;
+    text-align: center;
 }
 
 .imagencentrada {
-  float: none;
-  background-color: #f9f7f1;
-  padding: 20px;
+    float: none;
+    background-color: #f9f7f1;
+    padding: 20px;
 }
 
 .tituloprof {
-  font-size: large;
-  font-weight: bold;
-  padding-top: 10px;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
 }
 
 .img2 {
-  float: left;
-  padding: 1rem;
+    float: left;
+    padding: 1rem;
 }
+
 
 /* mapa howards */
 
 .mapaHogwarts {
-  width: 100%;
-  position: relative;
+    width: 100%;
+    position: relative;
 }
 
 .crash {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  top: 40px;
-  left: 40px;
-  z-index: 1;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
 }
+
 
 /*--Modal oculto--*/
 
 .modalLink {
-  text-decoration: none;
-  color: whitesmoke;
+    text-decoration: none;
+    color: whitesmoke;
 }
 
 .modalLink:hover {
-  text-decoration: none;
-  color: rgb(41, 41, 41);
+    text-decoration: none;
+    color: rgb(41, 41, 41);
 }

@@ -1,4 +1,4 @@
-var checkPassword = "sangrepura"
+var checkPassword = "inteligencia"
 
 function logear(e) {
     e.preventDefault();
