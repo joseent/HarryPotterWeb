@@ -18,6 +18,29 @@
 </head>
 
 <body>
+    <!--modal-->
+
+    <div class="modal fade animated zoomIn" id="mostrarmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Lo lograste! demostraste que perteneces a esta casa</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Pero te advierto!</h4>
+                    Sólo los verdaderamente dignos pueden permanecer en este sitio. Si develas algo de lo que
+                    aquí
+                    encuentras, <b>tus ojos no verán otro amanecer...</b>
+                </div>
+                <div class="modal-footer">
+                    <img src="/img/travesuraRealizadaGoldFeets.png" width="100" alt="">
+                    <a href="#" data-dismiss="modal" class="btn btn-outline-warning">Travesura realizada</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--NAVBAR-->
     <nav class="navbar navbar-dark navbar-expand-md d-flex align-top">
@@ -225,6 +248,7 @@
 
 
         <!--JAVASCRIPT BOOTSTRAP-->
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"></script>
@@ -235,6 +259,13 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
         <script src="/casaSlytherin/js/mensajeOculto.js"></script>
+
+        <!--funcion que llama al modal-->
+        <script>
+            $(document).ready(function () {
+                $("#mostrarmodal").modal("show");
+            });
+        </script>
 </body>
 
 </html>

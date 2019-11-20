@@ -128,3 +128,33 @@ input ::placeholder {
     margin-top: 7px;
   }
 }
+/* modal*/
+
+
+@font-face {
+  font-family: HARRYP;
+  src: url(/font/HARRYP__.TTF);
+}
+
+.modal {
+  position: absolute;
+  top: 40%;
+}
+
+h3 {
+  font-family: HARRYP;
+  font-size: 40px;
+  text-align: center;
+}
+
+.modal-header {
+  background-color: goldenrod;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-footer a:hover {
+background-color: goldenrod;
+}
