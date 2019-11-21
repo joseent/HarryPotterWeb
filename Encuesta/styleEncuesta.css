@@ -119,3 +119,10 @@ button {
 h1 {
   font-family: harryP;
 }
+
+/*--modal--*/
+
+.modal-title {
+  font-family: harryP;
+  font-size: 30px;
+}
