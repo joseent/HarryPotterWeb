@@ -66,59 +66,25 @@ function obtenerCasa() {
         var suma = p1[i] + p2[i] + p3[i];
         resultado[i] = suma;
     }
-
     let posicion = resultado.indexOf(Math.max(...resultado));
     posicion = posicion.toString();
+    let nombreCasa;
     switch (posicion) {
         case '0':
-
+            nombreCasa = 'gri';
             break;
         case '1':
+            nombreCasa = 'rave';
+            break
+        case '2':
+            nombreCasa = 'huff';
+            break
+        case '3':
+            nombreCasa = 'sly';
             break
         default:
             break;
     }
-
-
-
-
-
-
-    console.log(p1);
-    console.log(p2);
-    console.log(p3);
-    console.log(resultado);
-    console.log(i);
-
-
-
-
-
-
-    //pregunt 1
-    if (document.getElementById('check1').checked == true) { p1 = 1 } else if (document.getElementById('check2').checked == true) { p1 = 5 } else if (document.getElementById('check3').checked == true) { p1 = 10 } else { p1 = 20 }
-
-    //pregunt 2
-    if (document.getElementById('check1').checked == true) { p2 = 1 } else if (document.getElementById('check2').checked == true) { p2 = 5 } else if (document.getElementById('check3').checked == true) { p2 = 10 } else { p2 = 20 }
-
-    //pregunt 3
-    if (document.getElementById('check1').checked == true) { p3 = 1 } else if (document.getElementById('check2').checked == true) { p3 = 5 } else if (document.getElementById('check3').checked == true) { p3 = 10 } else { p1 = 20 }
-
-
-    resultado = p1 + p2 + p3;
-    let nombreCasa;
-    console.log(resultado);
-
-    if (resultado < 5) {
-        nombreCasa = 'gri';
-    } else if (resultado < 10) {
-        nombreCasa = 'rave';
-    } else if (resultado < 20) {
-        nombreCasa = 'huff';
-    } else {
-        nombreCasa = 'sly';
-    }
-
     return nombreCasa;
 }
 
@@ -127,5 +93,5 @@ function test() {
     console.log(casa);
     var botonModal = document.getElementById('botonModal');
     botonModal.setAttribute("data-target", '#' + casa);
-    botonModal.click()
+    botonModal.click();
 }
