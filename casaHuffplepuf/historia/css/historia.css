@@ -1,0 +1,14 @@
+#gato {
+    width: 70%;
+}
+
+@font-face {
+    font-family: HarryP;
+    src: url(/font/HARRYP__.TTF);
+}
+
+#gatoh1 {
+    font-family: HarryP;
+    color: goldenrod;
+    text-align: center;
+}

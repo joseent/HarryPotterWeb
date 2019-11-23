@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="/bosqueOculto/bosqueProhibido.css">
 
     <!--CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estiloIndex.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="/casaSlytherin/css/estiloCasa.css">
@@ -22,39 +21,38 @@
     <header class="bosqueOculto vh-100">
 
         <!--NAVBAR-->
-        <nav class="navbar navbar-dark navbar-expand-md d-flex align-top">
+        <nav class="navbar navbar-dark navbar-expand-lg">
             <a class="navbar-brand" href="#"></a>
-            <img src="/img/travesuraRealizadaGold.png" height="70" class="d-inline-block align-top mr-1" alt="">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <img src="/img/travesuraRealizadaGold.png" width="200" min-height="100" class="mr-auto d-none d-sm-none d-md-none d-lg-block" alt="">
+            <img src="/img/travesuraRealizadaGold.png" width="200" class="d-block d-sm-block d-lg-none mr-auto">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
+            <div class="collapse navbar-collapse m-auto text-center" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/casaSlytherin/casa.html">Inicio</a>
+                        <a class="nav-link" href="/casaGriffindor/casaG.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/historia/historia.html">Historia</a>
+                        <a class="nav-link" href="/casaGriffindor/historia/historia.html">Historia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/staff.html">Staff</a>
+                        <a class="nav-link" href="/casaGriffindor/staff.html">Staff</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="/casaSlytherin/mapa.html">Mapa</a>
+                        <a class="nav-link" href="/casaGriffindor/mapa.html">Mapa</a>
                     </li>
                 </ul>
-
-                <form class="form-inline my-2 my-lg-0">
-                    <a href="/formRegistro.html"><img class="icono" src="/casaSlytherin/img/profile.svg" alt=""></a>
-                </form>
-                <form action="/action_page.php">
-                    <input type="text" placeholder="Buscar" name="search">
-                    <img class="icono" src="../img/magnifier-tool.svg" alt="lupa">
-                </form>
+                <div class="contIconos">
+                    <form class="form-inline my-2 my-lg-0">
+                        <a href="/formRegistro.html"><img class="icono" src="/casaSlytherin/img/profile.svg" alt=""></a>
+                    </form>
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Buscar" name="search">
+                        <img class="icono lupa" src="/img/magnifier-tool.svg" alt="lupa">
+                    </form>
+                </div>
             </div>
         </nav>
 
@@ -69,32 +67,22 @@
         <h1 id="bosqueProhibidoTitulo">BOSQUE PROHIBIDO</h1>
         <div class="row ">
             <div class="col">
-                <p>Al oeste del Castillo de Hogwarts hay un bosque grande y oscuro. Este bosque está estrictamente fuera
-                    de los límites de los estudiantes de Hogwarts, excepto en la clase de Cuidado de Criaturas Mágicas o
-                    detenciones. Fred y George Weasley
-                    han estado mucho tiempo intentando entrar en él, naturalmente. El bosque prohibido a veces se llama
-                    El Bosque Prohibido pero más a menudo se le conoce simplemente como "el bosque". El bosque es espeso
-                    con los árboles se mencionan hayas,
-                    robles, pinos, sicómoros y tejos, así como maleza y espinas pero hay caminos, arroyos y claros.
-                    Fuera del camino es casi intransitable, aunque personas se han movido a través de él y criaturas tan
-                    grandes como las Acromántulas y un
+                <p>Al oeste del Castillo de Hogwarts hay un bosque grande y oscuro. Este bosque está estrictamente fuera de los límites de los estudiantes de Hogwarts, excepto en la clase de Cuidado de Criaturas Mágicas o detenciones. Fred y George Weasley
+                    han estado mucho tiempo intentando entrar en él, naturalmente. El bosque prohibido a veces se llama El Bosque Prohibido pero más a menudo se le conoce simplemente como "el bosque". El bosque es espeso con los árboles se mencionan hayas,
+                    robles, pinos, sicómoros y tejos, así como maleza y espinas pero hay caminos, arroyos y claros. Fuera del camino es casi intransitable, aunque personas se han movido a través de él y criaturas tan grandes como las Acromántulas y un
                     Ford Anglia pasan por ahí.
                 </p>
             </div>
         </div>
         <div class="row ">
             <div class="col-12 d-flex justify-content-center">
-                <iframe width="640" height="480" src="https://www.youtube.com/embed/93Bd98pAZCo" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <iframe width="640" height="480" src="https://www.youtube.com/embed/93Bd98pAZCo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
             </div>
         </div>
         <div class="row">
             <div class="col ">
-                <p>El bosque prohibido es un surtidor ancho y extraño de criaturas. Algo salvaje y peligroso, que
-                    necesite un lugar para vivir, es dejado allí. Hagrid se mueve alrededor del bosque con respeto pero
-                    sin miedo. Cualquier otra persona que ha
+                <p>El bosque prohibido es un surtidor ancho y extraño de criaturas. Algo salvaje y peligroso, que necesite un lugar para vivir, es dejado allí. Hagrid se mueve alrededor del bosque con respeto pero sin miedo. Cualquier otra persona que ha
                     entrado en él, sin embargo, ha salido esperando no entrar nunca en él de nuevo.</p>
 
             </div>
@@ -102,18 +90,14 @@
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
 
-                <iframe width="640" height="480" src="https://www.youtube.com/embed/uBeuTRCIUbk" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <iframe width="640" height="480" src="https://www.youtube.com/embed/uBeuTRCIUbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Hay áreas alrededor de los bordes del bosque que son parte de los terrenos de Hogwarts pero que están
-                    fuera de vista del castillo. Hagrid preparó un "corral" para los hipogrifos en una de estas áreas y
-                    los dragones que se habían traído
-                    para la Primera Prueba fueron encadenados ahí. La choza de Hagrid se encuentra al borde del bosque
-                    prohibido.</p>
+                <p>Hay áreas alrededor de los bordes del bosque que son parte de los terrenos de Hogwarts pero que están fuera de vista del castillo. Hagrid preparó un "corral" para los hipogrifos en una de estas áreas y los dragones que se habían traído
+                    para la Primera Prueba fueron encadenados ahí. La choza de Hagrid se encuentra al borde del bosque prohibido.
+                </p>
             </div>
         </div>
 
@@ -188,9 +172,7 @@
 
                 <!-- Grid column -->
                 <div class="col-md-8 col-12 ">
-                    <p style="line-height: 1.7rem; color: lightgray;"> Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Facilis nemo doloremque recusandae, soluta vero quod enim dignissimos, harum
-                        non fuga cumque officiis molestias dicta unde commodi? Unde quis veritatis laboriosam. </p>
+                    <p style="line-height: 1.7rem; color: lightgray;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nemo doloremque recusandae, soluta vero quod enim dignissimos, harum non fuga cumque officiis molestias dicta unde commodi? Unde quis veritatis laboriosam. </p>
                 </div>
                 <!-- Grid column -->
 
@@ -242,15 +224,9 @@
 
 
     <!--JAVASCRIPT BOOTSTRAP-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
-        crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
-        crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
-        crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
     <script src="/casaSlytherin/js/cita.js "></script>
 
     <script type='text/javascript' src='bug-min.js'></script>
