@@ -1,160 +1,170 @@
 * {
-  cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
+    cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), auto !important;
 }
 
 body {
-  background: black;
+    background: black;
 }
 
 .body {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .imagenCabecera {
-  width: 100vw;
-  height: auto;
+    width: 100vw;
+    height: auto;
 }
 
 .mapaHogwarts {
-  width: 100%;
+    width: 100%;
 }
 
 #bridge {
-  display: block;
-  margin: 0 auto;
-  background-image: url(/casaSlytherin/img/members.jpg);
-  background-image: -webkit-image-set(
-    url("/casaSlytherin/img/members.jpg") 1x,
-    url("/casaSlytherin/img/members.jpg") 2x
-  );
-  background-size: cover;
-  width: 100%;
-  max-width: 750px;
-  height: auto;
-  cursor: crosshair;
-  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png)
-      53 53,
-    crosshair;
+    display: block;
+    margin: 0 auto;
+    background-image: url('/img/bridgeBglong.png');
+    background-image: -webkit-image-set(url('/img/bridgeBglong.png') 1x, url('/img/bridgeBg.png') 2x);
+    background-size: cover;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+    cursor: crosshair;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png) 53 53, crosshair;
 }
 
 #bridgeContainer {
-  text-align: center;
-  font-family: Avenir, sans-serif;
+    text-align: center;
+    font-family: Avenir, sans-serif;
 }
 
 #bridgeContainer figcaption {
-  margin-top: 2rem;
+    margin-top: 2rem;
+}
+
+#bridge img {
+    width: 100%;
+}
+
+#bridgeContainer {
+    text-align: center;
+    font-family: Avenir, sans-serif;
+}
+
+#bridgeContainer figcaption {
+    margin-top: 2rem;
 }
 
 .e-commerce {
-  width: 288px;
-  height: 310px;
+    width: 288px;
+    height: 310px;
 }
+
 
 /*NavBar*/
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.5);
-  min-height: 130px;
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 130px;
 }
 
 .icono {
-  width: 25px;
-  margin: 15px;
-  background-color: transparent;
-  border: none;
+    width: 25px;
+    margin: 15px;
+    background-color: transparent;
+    border: none;
 }
 
 .nav-link {
-  color: lightgray;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-family: sans-serif;
-  text-transform: uppercase;
+    color: lightgray;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
 }
 
 li a {
-  color: white;
+    color: white;
 }
 
 .navbar-nav li:hover {
-  transform: translateY(10px);
-  color: lightgrey;
+    transform: translateY(10px);
+    color: lightgrey;
 }
 
 form img {
-  color: lightgrey;
+    color: lightgrey;
 }
 
 input {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid lightgrey;
-  font-size: 14px;
-  font-family: sans-serif;
-  color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
 }
 
 input ::placeholder {
-  color: whitesmoke;
+    color: whitesmoke;
 }
 
 .navbar-toggler {
-  margin-right: 20px;
-  border-color: lightgray;
-  color: lightgray;
+    margin-right: 20px;
+    border-color: lightgray;
+    color: lightgray;
 }
 
 @media (max-width: 998px) {
-  input {
-    display: none;
-  }
-  form .lupa {
-    margin-top: 22px;
-  }
-  .contIconos {
-    display: flex;
-    justify-content: center;
-  }
+    input {
+        display: none;
+    }
+    form .lupa {
+        margin-top: 22px;
+    }
+    .contIconos {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 769px) {
-  .contIconos {
-    display: flex;
-    flex-direction: row;
-  }
-  form {
-    margin-top: 7px;
-  }
+    .contIconos {
+        display: flex;
+        flex-direction: row;
+    }
+    form {
+        margin-top: 7px;
+    }
 }
+
+
 /* modal*/
 
-
 @font-face {
-  font-family: HARRYP;
-  src: url(/font/HARRYP__.TTF);
+    font-family: HARRYP;
+    src: url(/font/HARRYP__.TTF);
 }
 
 .modal {
-  position: absolute;
-  top: 40%;
+    position: absolute;
+    top: 40%;
 }
 
 h3 {
-  font-family: HARRYP;
-  font-size: 40px;
-  text-align: center;
+    font-family: HARRYP;
+    font-size: 40px;
+    text-align: center;
 }
 
 .modal-header {
-  background-color: goldenrod;
+    background-color: goldenrod;
 }
 
 .modal-body {
-  text-align: center;
+    text-align: center;
 }
 
 .modal-footer a:hover {
-background-color: goldenrod;
+    background-color: goldenrod;
 }

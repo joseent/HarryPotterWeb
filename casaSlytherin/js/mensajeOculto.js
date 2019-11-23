@@ -8,10 +8,8 @@ if (brushRadius < 50) { brushRadius = 50 }
 img.onload = function() {
     bridgeCanvas.drawImage(img, 0, 0, bridge.width, bridge.height);
 }
-
-//aqui es para modificar la imagen de arriba
-img.loc = ('https://vignette.wikia.nocookie.net/es.harrypotter/images/b/b3/Salazar.jpg/revision/latest?cb=20150506175324');
-img.filename = 'calgary-bridge-2013.jpg';
+img.loc = 'https://vignette.wikia.nocookie.net/es.harrypotter/images/b/ba/Department_of_Magical_Transportation.jpg/revision/latest?cb=20190816181042';
+img.filename = 'GreatHallDoors.jpg';
 if (window.devicePixelRatio >= 2) {
     var nameParts = img.filename.split('.');
     img.src = img.loc + nameParts[0] + "-2x" + "." + nameParts[1];
