@@ -264,7 +264,10 @@ input ::placeholder {
 /*texto gris*/
 
 .textosGris p {
-    color: rgba(128, 128, 128, 0.612);
+    color: #9E9E9E;
+}
+.textosGris li {
+    color: #9E9E9E;
 }
 
 
