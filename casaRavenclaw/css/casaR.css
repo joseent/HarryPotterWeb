@@ -70,6 +70,14 @@ body {
     border-radius: 5%;
 }
 
+button a {
+    color: whitesmoke;
+}
+
+button a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
 
 /* esto es de las citas de texto*/
 

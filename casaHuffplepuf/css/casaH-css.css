@@ -153,14 +153,13 @@ input ::placeholder {
     border-radius: 5%;
 }
 
-a .boton {
-    text-decoration: none;
+button a {
     color: whitesmoke;
 }
 
-.boton:hover {
+button a:hover {
+    color: lightgray;
     text-decoration: none;
-    color: rgb(41, 41, 41);
 }
 
 

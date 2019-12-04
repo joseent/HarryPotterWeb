@@ -70,9 +70,13 @@ body {
     border-radius: 5%;
 }
 
-.boton {
-    text-decoration: none;
+button a {
     color: whitesmoke;
+}
+
+button a:hover {
+    color: lightgray;
+    text-decoration: none;
 }
 
 
