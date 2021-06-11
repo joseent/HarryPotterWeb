@@ -1,29 +1,31 @@
 body {
-  background: url(/img/form4.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  min-width: 100vw;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    background: url(./img/form4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .contenedor {
-  background-color: rgba(0, 0, 0, 0.7);
-  max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 /*estilo de letra*/
 
 @font-face {
-  font-family: harryP;
-  src: url(/font/HARRYP__.TTF);
+    font-family: harryP;
+    src: url(./font/HARRYP__.TTF);
 }
 
 h1 {
-  font-family: harryP;
+    font-family: harryP;
 }

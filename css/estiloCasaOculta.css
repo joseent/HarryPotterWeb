@@ -143,7 +143,7 @@ input ::placeholder {
 
 @font-face {
     font-family: HARRYP;
-    src: url(/font/HARRYP__.TTF);
+    src: url(./font/HARRYP__.TTF);
 }
 
 .modal {

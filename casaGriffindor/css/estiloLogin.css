@@ -5,7 +5,7 @@
 .bg {
     padding-top: 5%;
     padding-bottom: 5%;
-    background-image: url(/casaGriffindor/img/commonRoom.jpg);
+    background-image: url(./casaGriffindor/img/commonRoom.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
