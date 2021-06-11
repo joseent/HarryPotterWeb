@@ -123,8 +123,8 @@ input ::placeholder {
 #bridge {
     display: block;
     margin: 0 auto;
-    background-image: url(./casaSlytherin/img/members.jpg);
-    background-image: -webkit-image-set( url("/casaSlytherin/img/members.jpg") 1x, url("/casaSlytherin/img/members.jpg") 2x);
+    background-image: url(../img/members.jpg);
+    background-image: -webkit-image-set( url("../img/members.jpg") 1x, url("../img/members.jpg") 2x);
     background-size: cover;
     width: 100%;
     max-width: 750px;
