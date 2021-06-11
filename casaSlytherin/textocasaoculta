@@ -12,7 +12,7 @@
                                 <div class="frontside">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="/img/mercadoNegro/bebidaDiablo.jpg" alt="card image"></p>
+                                            <p><img class=" img-fluid" src="./img/mercadoNegro/bebidaDiablo.jpg" alt="card image"></p>
                                             <h4 class="card-title">Bebida del Diablo</h4>
                                             <p class="card-text">Pocion</p>
                                             <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -40,7 +40,7 @@
                                 <div class="frontside">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="/img/mercadoNegro/collarOpalo.jpg" alt="card image"></p>
+                                            <p><img class=" img-fluid" src="./img/mercadoNegro/collarOpalo.jpg" alt="card image"></p>
                                             <h4 class="card-title">Collar de Ópalo</h4>
                                             <p class="card-text">Accesorio</p>
                                             <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -67,7 +67,7 @@
                                 <div class="frontside">
                                     <div class="card">
                                         <div class="card-body text-center">
-                                            <p><img class=" img-fluid" src="/img/mercadoNegro/mortifagos.jpg" alt="card image"></p>
+                                            <p><img class=" img-fluid" src="./img/mercadoNegro/mortifagos.jpg" alt="card image"></p>
                                             <h4 class="card-title">Mortifago</h4>
                                             <p class="card-text">Asesino</p>
                                             <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
